@@ -14,6 +14,10 @@
 
 1. [Training verifiers to solve math word problems (**GSM8K** benchmark)](https://arxiv.org/abs/2110.14168). Karl Cobbe et al, 2021. 8.5K (7.5k training + 1k test) high quality grade school math problems created by human problem writers. Each problem takes between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations.
 
+#### Reasoning / Agent
+
+1. [FIREACT: TOWARD LANGUAGE AGENT FINE-TUNING](https://arxiv.org/abs/2310.05915). Chen et al., 2023. Training data was collected by prompting GPT-4. FireAct based on Llama-2-13b outperforms GPT-3.5 on HotpotQA.
+
 ### High-performing open-source LLMs
 
 #### Better training techniques
