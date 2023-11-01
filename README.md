@@ -9,3 +9,7 @@
 #### Code
 
 1. [Evaluating large models trained on code (**HumanEval** benchmark)](https://arxiv.org/abs/2107.03374). 2021. 164 hand-written programming problems. Each problem includes a function signature, docstring, body, and several unit tests, with an average of 7.7 tests per problem.
+
+### Math
+
+1. [Training verifiers to solve math word problems (**GSM8K** benchmark)](https://arxiv.org/abs/2110.14168). 2021. 8.5K (7.5k training + 1k test) high quality grade school math problems created by human problem writers. Each problem takes between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations.
