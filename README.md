@@ -24,6 +24,10 @@
 
 #### Better pre-training techniques
 
+| **Model**                                        | **Pre-training** | **LLM size** | **Dataset** | **ChatGPT** | **LLM**     |
+|--------------------------------------------------|------------------|--------------|-------------|-------------|-------------|
+| Phi-1 [paper](https://arxiv.org/abs/2306.11644)  | From scratch     | 1.3B         | HumanEval   | 47.0 pass@1 | 50.6 pass@1
+
 #### Better fine-tuning / instruction-tuning techniques
 
 1. [**FIREACT**: Toward Language Agent Fine-tuning](https://arxiv.org/abs/2310.05915). Chen et al., 2023. Training data was collected by prompting GPT-4. FireAct based on Llama-2-13b outperforms GPT-3.5 on HotpotQA.
