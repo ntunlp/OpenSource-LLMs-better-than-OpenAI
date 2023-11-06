@@ -24,9 +24,9 @@
 
 #### Better pre-training techniques
 
-| **Model**                                        | **Pre-training** | **LLM size** | **Dataset** | **OpenAI model** | **OpenAI**  | **LLM**     |
-|--------------------------------------------------|------------------|--------------|-------------|------------------|-------------|-------------|
-| Phi-1 [paper](https://arxiv.org/abs/2306.11644)  | From scratch     | 1.3B         | HumanEval   | GPT-3.5          | 47.0 pass@1 | 50.6 pass@1 |
+| **Model**                                        | **Date released** | **Pre-training** | **LLM size** | **Dataset** | **OpenAI model** | **OpenAI**  | **LLM**     |
+|--------------------------------------------------|-------------------|------------------|--------------|-------------|------------------|-------------|-------------|
+| Phi-1 [paper](https://arxiv.org/abs/2306.11644)  | June 20th, 2023   | From scratch     | 1.3B         | HumanEval   | GPT-3.5          | 47.0 pass@1 | 50.6 pass@1 |
 
 #### Better fine-tuning / instruction-tuning techniques
 
