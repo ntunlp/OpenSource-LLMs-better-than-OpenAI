@@ -34,11 +34,11 @@
 
 ### Better pre-training techniques
 
-| **LLM**                                           | **Date released** | **Pre-training** | **LLM size** | **Eval Dataset (metric)** | **OpenAI model** | **OpenAI result** | **LLM result** |
-|---------------------------------------------------|-------------------|------------------|--------------|-------------|------------------|-------------------|----------------|
-| **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | From scratch | 1.3B | HumanEval (pass@1) | GPT-3.5 | 47.0 | 50.6 (+7.7%) |
-| **Llama-2-Long-Chat** [[paper](https://arxiv.org/abs/2309.16039)] | Sept 27th, 2023 | Llama-2 + 400B tokens | 70B | ZeroScrolls (average) | GPT-3.5-turbo-16k | 36.7 | 37.7 (+2.7%) |
-| **Lemur** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | Llama-2 + 90B tokens | 70B | HumanEval (pass@1) | GPT-3.5-turbo | 37.78 | 46.67 (+23.5%) |
+| **LLM**     | **Date released** | **Pre-training** | **LLM size** | **Eval Dataset (metric)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gin (%)** |
+|-------------|-------------------|------------------|--------------|---------------------------|------------------|-------------------|----------------|-------------|
+| **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | From scratch | 1.3B | HumanEval (pass@1) | GPT-3.5 | 47.0 | 50.6 | +7.7% |
+| **Llama-2-Long-Chat** [[paper](https://arxiv.org/abs/2309.16039)] | Sept 27th, 2023 | Llama-2 + 400B tokens | 70B | ZeroScrolls (average) | GPT-3.5-turbo-16k | 36.7 | 37.7 | +2.7% |
+| **Lemur** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | Llama-2 + 90B tokens | 70B | HumanEval (pass@1) | GPT-3.5-turbo | 37.78 | 46.67 | +23.5% |
 | | | | | GSM-8K | GPT-3.5-turbo | 43.75 | 58.33 |
 
 ### Better fine-tuning / instruction-tuning techniques
