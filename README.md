@@ -41,6 +41,7 @@
 | **Lemur** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | Llama-2 + 90B tokens | 70B | HumanEval (pass@1) | GPT-3.5-turbo | 37.78 | 46.67 | +23.5% |
 | | | | | GSM-8K | GPT-3.5-turbo | 43.75 | 58.33 | +33.3% |
 | **InstructRetro** [[paper](https://arxiv.org/abs/2310.07713)] | Oct 11th, 2023 | GPT + 100B tokens | 48B | SQuAD-2.0 (F1) | GPT-3 | 59.5 | 75.6 | +27.1% |
+| **Yi-34B** [[github](https://github.com/01-ai/Yi)] | Nov 5th, 2023 | From scratch | 34B | MMLU (5-shot) | GPT-3.5 | 70.0 | 76.3 | +9.0% |
 
 ### Better fine-tuning / instruction-tuning techniques
 
