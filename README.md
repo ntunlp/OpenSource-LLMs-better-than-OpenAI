@@ -34,8 +34,8 @@
 
 ### Better pre-training techniques
 
-| **Model**                                         | **Date released** | **Pre-training** | **LLM size** | **Dataset** | **OpenAI model** | **OpenAI** | **LLM** |
-|---------------------------------------------------|-------------------|------------------|--------------|-------------|------------------|-------------|-------------|
+| **Model**                                         | **Date released** | **Pre-training** | **LLM size** | **Dataset** | **OpenAI model** | **OpenAI result** | **LLM result** |
+|---------------------------------------------------|-------------------|------------------|--------------|-------------|------------------|-------------------|----------------|
 | **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | From scratch | 1.3B | HumanEval | GPT-3.5 | 47.0 pass@1 | 50.6 pass@1 |
 | **Llama-2-Long-Chat** [[paper](https://arxiv.org/abs/2309.16039)] | Sept 27th, 2023 | Llama-2 + 400B tokens | 70B | ZeroScrolls | GPT-3.5-turbo-16k | 36.7 | 37.7 |
 | **Lemur** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | Llama-2 + 90B tokens | 70B | HumanEval | GPT-3.5-turbo | 37.78 | 46.67 |
