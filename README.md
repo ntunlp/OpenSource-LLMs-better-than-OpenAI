@@ -34,8 +34,8 @@
 
 ### Better pre-training techniques
 
-| **LLM**     | **Date released** | **Pre-training** | **LLM size** | **Eval Dataset (metric)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gin (%)** |
-|-------------|-------------------|------------------|--------------|---------------------------|------------------|-------------------|----------------|-------------|
+| **LLM**     | **Date released** | **Pre-training** | **LLM size** | **Eval Dataset (metric)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
+|-------------|-------------------|------------------|--------------|---------------------------|------------------|-------------------|----------------|--------------|
 | **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | From scratch | 1.3B | HumanEval (pass@1) | GPT-3.5 | 47.0 | 50.6 | +7.7% |
 | **Llama-2-Long-Chat** [[paper](https://arxiv.org/abs/2309.16039)] | Sept 27th, 2023 | Llama-2 + 400B tokens | 70B | ZeroScrolls (average) | GPT-3.5-turbo-16k | 36.7 | 37.7 | +2.7% |
 | **Lemur** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | Llama-2 + 90B tokens | 70B | HumanEval (pass@1) | GPT-3.5-turbo | 37.78 | 46.67 | +23.5% |
@@ -43,14 +43,14 @@
 
 ### Better fine-tuning / instruction-tuning techniques
 
-| **LLM**                                           | **Date released** | **Backbone LLM** | **LLM size** | **Eval Dataset** | **OpenAI model** | **OpenAI result** | **LLM result** |
-|---------------------------------------------------|-------------------|------------------|--------------|-------------|------------------|-------------------|----------------|
-| **FireAct** [[paper](https://arxiv.org/abs/2310.05915)] | October 9th, 2023 | LLama-2 | 13B | HotPotQA (EM) | GPT-3.5 | 31.4 | 34.4 (+9.6%) |
-| **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | October 19th, 2023 | LLama-2 | 70B | ALFWorld (SR) | GPT-4 | 78.0 | 86.0 (+10.3%) |
-| | | | | Knowledge Graph (F1) | GPT-3.5 | 27.2 | 47.0 (+72.8%) |
-| | | | | Database (SR) | GPT-4 | 33.7 | 37.7 (+11.9%) |
-| | | | | HotPotQA (EM) | GPT-3.5 | 37.4 | 41.6 (+11.2%) |
-| | | | | GSM-8K (SR) | GPT-3.5 | 57.1 | 59.7 (+4.6%) |
+| **LLM**     | **Date released** | **Backbone LLM** | **LLM size** | **Eval Dataset** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
+|-------------|-------------------|------------------|--------------|------------------|------------------|-------------------|----------------|--------------|
+| **FireAct** [[paper](https://arxiv.org/abs/2310.05915)] | October 9th, 2023 | LLama-2 | 13B | HotPotQA (EM) | GPT-3.5 | 31.4 | 34.4 | +9.6% |
+| **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | October 19th, 2023 | LLama-2 | 70B | ALFWorld (SR) | GPT-4 | 78.0 | 86.0 | +10.3% |
+| | | | | Knowledge Graph (F1) | GPT-3.5 | 27.2 | 47.0 | +72.8% |
+| | | | | Database (SR) | GPT-4 | 33.7 | 37.7 | +11.9% |
+| | | | | HotPotQA (EM) | GPT-3.5 | 37.4 | 41.6 | +11.2% |
+| | | | | GSM-8K (SR) | GPT-3.5 | 57.1 | 59.7 | +4.6% |
 
 3. [Enhancing Chat Language Models by Scaling High-quality Instructional Conversations (**UltraChat** dataset)](https://arxiv.org/abs/2305.14233). Ning Ding et al, 2023. 1.5 million high-quality multi-turn dialogues covering a wide range of topics and instructions.
 4. [**Albel**](https://github.com/GAIR-NLP/abel/#Citation). *"We propose Parental Oversight, A Babysitting Strategy for Supervised Fine-tuning."* Albel can outperform ChatGPT on GSM8K.
