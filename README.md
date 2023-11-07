@@ -45,7 +45,10 @@
 
 | **LLM**                                           | **Date released** | **Backbone LLM** | **LLM size** | **Eval Dataset** | **OpenAI model** | **OpenAI result** | **LLM result** |
 |---------------------------------------------------|-------------------|------------------|--------------|-------------|------------------|-------------------|----------------|
-| **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | October 19th, 2023 | LLama-2 | 70B | HotPotQA | GPT-3.5 | 37.4 | 41.6 |
+| **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | October 19th, 2023 | LLama-2 | 70B | ALFWorld | GPT-3.5 | 14.0 | 86.0 |
+| | | | | Knowledge Graph | GPT-3.5 | 27.2 | 47.0 |
+| | | | | Database | GPT-3.5 | 15.0 | 37.7 |
+| | | | | HotPotQA | GPT-3.5 | 37.4 | 41.6 |
 | | | | | GSM-8K | GPT-3.5 | 57.1 | 59.7 |
 
 1. [**FIREACT**: Toward Language Agent Fine-tuning](https://arxiv.org/abs/2310.05915). Chen et al., 2023. Training data was collected by prompting GPT-4. FireAct based on Llama-2-13b outperforms GPT-3.5 on HotpotQA.
