@@ -47,15 +47,12 @@
 |-------------|-------------------|------------------|--------------|------------------|------------------|-------------------|----------------|--------------|
 | **UltraLlama** [[paper](https://arxiv.org/abs/2305.14233)] | May 23rd, 2023 | LLama | 13B | TruthfulQA-easy (% true) | ChatGPT | 9.77 | 9.90 | +1.3% |
 | | | | | TruthfulQA-hard (% true) | ChatGPT | 9.30 | 9.33 | +0.3% |
-| **FireAct** [[paper](https://arxiv.org/abs/2310.05915)] | October 9th, 2023 | LLama-2 | 13B | HotPotQA (EM) | GPT-3.5 | 31.4 | 34.4 | +9.6% |
-| **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | October 19th, 2023 | LLama-2 | 70B | ALFWorld (SR) | GPT-4 | 78.0 | 86.0 | +10.3% |
+| **WizardMath** [[paper](https://arxiv.org/abs/2308.09583)] | Aug 18th, 2023 | LLama-2 | 70B | GSM-8K (SR) | GPT-3.5 | 57.1 | 81.6 | +42.9% |
+| **FireAct** [[paper](https://arxiv.org/abs/2310.05915)] | Oct 9th, 2023 | LLama-2 | 13B | HotPotQA (EM) | GPT-3.5 | 31.4 | 34.4 | +9.6% |
+| **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | Oct 19th, 2023 | LLama-2 | 70B | ALFWorld (SR) | GPT-4 | 78.0 | 86.0 | +10.3% |
 | | | | | Knowledge Graph (F1) | GPT-3.5 | 27.2 | 47.0 | +72.8% |
 | | | | | Database (SR) | GPT-4 | 33.7 | 37.7 | +11.9% |
 | | | | | HotPotQA (EM) | GPT-3.5 | 37.4 | 41.6 | +11.2% |
 | | | | | GSM-8K (SR) | GPT-3.5 | 57.1 | 59.7 | +4.6% |
-
-3. [Enhancing Chat Language Models by Scaling High-quality Instructional Conversations (**UltraChat** dataset)](https://arxiv.org/abs/2305.14233). Ning Ding et al, 2023. 1.5 million high-quality multi-turn dialogues covering a wide range of topics and instructions.
-4. [**Albel**](https://github.com/GAIR-NLP/abel/#Citation). *"We propose Parental Oversight, A Babysitting Strategy for Supervised Fine-tuning."* Albel can outperform ChatGPT on GSM8K.
-5. [**WizardMath**: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct](https://arxiv.org/abs/2308.09583). A evolutional self-instructing method for SFT. WizardMath can outperform ChatGPT on GSM8K. Noted that all open-sourced models still fall behind GPT-4 on MATH with significant margin.
 
 ### Better inference techniques 
