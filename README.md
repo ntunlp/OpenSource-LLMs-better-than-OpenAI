@@ -40,7 +40,7 @@
 | **Llama-2-Long-Chat** [[paper](https://arxiv.org/abs/2309.16039)] | Sept 27th, 2023 | Llama-2 + 400B tokens | 70B | ZeroScrolls (average) | GPT-3.5-turbo-16k | 36.7 | 37.7 | +2.7% |
 | **Lemur** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | Llama-2 + 90B tokens | 70B | HumanEval (pass@1) | GPT-3.5-turbo | 37.78 | 46.67 | +23.5% |
 | | | | | GSM-8K | GPT-3.5-turbo | 43.75 | 58.33 | +33.3% |
-| **InstructRetro** [[paper](https://arxiv.org/abs/2310.07713)] | Oct 11th, 2023 | GPT + 100N tokens | 48B | SQuAD-2.0 (F1) | GPT-3 | 59.5 | 75.6 | +27.1% |
+| **InstructRetro** [[paper](https://arxiv.org/abs/2310.07713)] | Oct 11th, 2023 | GPT + 100B tokens | 48B | SQuAD-2.0 (F1) | GPT-3 | 59.5 | 75.6 | +27.1% |
 
 ### Better fine-tuning / instruction-tuning techniques
 
@@ -50,6 +50,11 @@
 | | | | | TruthfulQA-hard (% true) | ChatGPT | 9.30 | 9.33 | +0.3% |
 | **WizardCoder** [[paper](https://arxiv.org/abs/2306.08568)] | June 14th, 2023 | Alpaca (LLama-2) | 15B | HumanEval (pass@1) | GPT-3.5 | 48.1 | 57.3 | +19.1% |
 | **WizardMath** [[paper](https://arxiv.org/abs/2308.09583)] | Aug 18th, 2023 | LLama-2 | 70B | GSM-8K (SR) | GPT-3.5 | 57.1 | 81.6 | +42.9% |
+| **Llama-2-32k-ret** [[paper](https://arxiv.org/abs/2310.03025)] | Oct 4th, 2023 | LLama-2 | 70B | QMSum (R-1) | GPT-3.5-turbo-16k | 17.6 | 18.5 | +5.1% |
+| | | | | NarrativeQA (F1) | GPT-3.5-turbo-16k | 28.8 | 31.5 | +9.4% |
+| | | | | QuALITY (EM) | GPT-3.5-turbo-16k | 72.6 | 75.6 | +4.1% |
+| | | | | HotPotQA (F1) | GPT-3.5-turbo-16k | 51.6 | 53.9 | +4.5% |
+| | | | | MultiFieldQA-en (F1) | GPT-3.5-turbo-16k | 52.3 | 52.9 | +1.1% |
 | **FireAct** [[paper](https://arxiv.org/abs/2310.05915)] | Oct 9th, 2023 | LLama-2 | 13B | HotPotQA (EM) | GPT-3.5 | 31.4 | 34.4 | +9.6% |
 | **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | Oct 19th, 2023 | LLama-2 | 70B | ALFWorld (SR) | GPT-4 | 78.0 | 86.0 | +10.3% |
 | | | | | Knowledge Graph (F1) | GPT-3.5 | 27.2 | 47.0 | +72.8% |
