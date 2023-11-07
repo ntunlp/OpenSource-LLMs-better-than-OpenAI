@@ -45,9 +45,9 @@
 
 | **LLM**                                           | **Date released** | **Backbone LLM** | **LLM size** | **Eval Dataset** | **OpenAI model** | **OpenAI result** | **LLM result** |
 |---------------------------------------------------|-------------------|------------------|--------------|-------------|------------------|-------------------|----------------|
-| **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | October 19th, 2023 | LLama-2 | 70B | ALFWorld | GPT-3.5 | 14.0 | 86.0 |
+| **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | October 19th, 2023 | LLama-2 | 70B | ALFWorld | GPT-4 | 78.0 | 86.0 |
 | | | | | Knowledge Graph | GPT-3.5 | 27.2 | 47.0 |
-| | | | | Database | GPT-3.5 | 15.0 | 37.7 |
+| | | | | Database | GPT-4 | 33.7 | 37.7 |
 | | | | | HotPotQA | GPT-3.5 | 37.4 | 41.6 |
 | | | | | GSM-8K | GPT-3.5 | 57.1 | 59.7 |
 
