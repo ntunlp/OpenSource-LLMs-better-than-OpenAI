@@ -45,6 +45,8 @@
 
 | **LLM**     | **Date released** | **Backbone LLM** | **LLM size** | **Eval Dataset** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
 |-------------|-------------------|------------------|--------------|------------------|------------------|-------------------|----------------|--------------|
+| **UltraLlama** [[paper](https://arxiv.org/abs/2305.14233)] | May 23rd, 2023 | LLama | 13B | TruthfulQA-easy (% true) | ChatGPT | 9.77 | 9.90 | +1.3% |
+| | | | | TruthfulQA-hard (% true) | ChatGPT | 9.30 | 9.33 | +0.3% |
 | **FireAct** [[paper](https://arxiv.org/abs/2310.05915)] | October 9th, 2023 | LLama-2 | 13B | HotPotQA (EM) | GPT-3.5 | 31.4 | 34.4 | +9.6% |
 | **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | October 19th, 2023 | LLama-2 | 70B | ALFWorld (SR) | GPT-4 | 78.0 | 86.0 | +10.3% |
 | | | | | Knowledge Graph (F1) | GPT-3.5 | 27.2 | 47.0 | +72.8% |
