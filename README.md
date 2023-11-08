@@ -5,27 +5,50 @@
 
 ## Evaluation datasets
 
-### Question-answering (QA)
+### Long-context (summarization, QA, etc)
 
-1. [**Natural Questions**: A Benchmark for Question Answering Research](https://aclanthology.org/Q19-1026/). Tom Kwiatkowski et al, TACL 2019. 307,373 training examples with single annotations; 7,830 development examples with 5-way annotations and 7,842 test examples with 5-way annotations. Questions are real anonymized, aggregated queries issued to the Google search engine. Each question is paired with an entire Wikipedia page. 
-2. [**BoolQ**: Exploring the Surprising Difficulty of Natural Yes/No Questions](https://aclanthology.org/N19-1300/). Christopher Clark et al, NAACL 2019. 16,000 naturally occurring yes/no questions, split in 9.4k train, 3.2k dev, 3.2k test. Each question is paired with a Wikipedia passage. 
-3. [**TruthfulQA**: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958). Stephanie Lin et al, ACL 2022. 817 questions spanning 38 categories. Question and answers are hand-written by human annotators and designed to elicit imitative falsehoods.
+1. [The **NarrativeQA** Reading Comprehension Challenge](https://arxiv.org/abs/1712.07040). Kočiský et al, 2017.
+2. [**BookSum**: A Collection of Datasets for Long-form Narrative Summarization](https://arxiv.org/abs/2105.08209). Kryściński et al, 2021.
+3. [**QMSum**: A New Benchmark for Query-based Multi-domain Meeting Summarization](https://arxiv.org/abs/2104.05938). Ming Zhong et al, NAACL 2021. 1,808 query-summary pairs over 232 meetings in multiple domains. Meetings are from 3 categories: product, academic, committee ; and are annotated by AMT workers.
+4. [Efficient Attentions for Long Document Summarization (**GovReport**)](https://arxiv.org/abs/2104.02112). Huang et al, NAACL 2021.
+5. [A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers (**Qasper**)](https://arxiv.org/abs/2105.03011). Dasigi et al, NAACL 2021.
+6. [**QuALITY**: Question Answering with Long Input Texts, Yes!](https://arxiv.org/abs/2112.08608). Pang et al, NAACL 2022.
+7. [**SummScreen**: A Dataset for Abstractive Screenplay Summarization](https://arxiv.org/abs/2104.07091). Chen et al, ACL 2022.
+8. [**SQuALITY**: Building a Long-Document Summarization Dataset the Hard Way](https://arxiv.org/abs/2205.11465). Wang et al, EMNLP 2022.
+9. [**MuSiQue**: Multihop Questions via Single-hop Question Composition](https://arxiv.org/abs/2108.00573) Trivedi et al, TACL 2022.
+10. [**ZeroSCROLLS**: A Zero-Shot Benchmark for Long Text Understanding](https://arxiv.org/abs/2305.14196). Uri Shaham et al, EMNLP 2023. Long-input benchmark containing 10 datasets: 2 summarization tasks ([GovReport](https://arxiv.org/abs/2104.02112) and [SummScreenFD](https://arxiv.org/abs/2104.07091)), 2 query-based summarization tasks ([QMSum](https://arxiv.org/abs/2104.05938) and [SQuALITY](https://arxiv.org/abs/2205.11465)), 4 question-answering datasets ([Qasper](https://arxiv.org/abs/2105.03011), [NarrativeQA](https://arxiv.org/abs/1712.07040), [QuALITY](https://arxiv.org/abs/2112.08608), [MuSiQue](https://arxiv.org/abs/2108.00573)), 2 aggregation tasks ([SpaceDigest](https://arxiv.org/abs/2012.04443), [BookSumSort](https://arxiv.org/abs/2105.08209)). 
 
-### Long-input capacity
-
-1. [**ZeroSCROLLS**: A Zero-Shot Benchmark for Long Text Understanding](https://arxiv.org/abs/2305.14196). Uri Shaham et al, EMNLP 2023. Long-input benchmark containing 10 datasets: 2 summarization tasks ([GovReport](https://arxiv.org/abs/2104.02112) and [SummScreenFD](https://arxiv.org/abs/2104.07091)), 2 query-based summarization tasks ([QMSum](https://arxiv.org/abs/2104.05938) and [SQuALITY](https://arxiv.org/abs/2205.11465)), 4 question-answering datasets ([Qasper](https://arxiv.org/abs/2105.03011), [NarrativeQA](https://arxiv.org/abs/1712.07040), [QuALITY](https://arxiv.org/abs/2112.08608), [MuSiQue](https://arxiv.org/abs/2108.00573)), 2 aggregation tasks ([SpaceDigest](https://arxiv.org/abs/2012.04443), [BookSumSort](https://arxiv.org/abs/2105.08209)). 
-
-### Code
+### Logical reasoning (maths, coding, etc)
 
 1. [Evaluating Large Models Trained on Code (**HumanEval** benchmark)](https://arxiv.org/abs/2107.03374). Mark Chen et al, 2021. 164 hand-written programming problems. Each problem includes a function signature, docstring, body, and several unit tests, with an average of 7.7 tests per problem.
+2. [Training Verifiers to Solve Math Word Problems (**GSM8K** benchmark)](https://arxiv.org/abs/2110.14168). Karl Cobbe et al, 2021. 8.5K (7.5k training + 1k test) high quality grade school math problems created by human problem writers. Each problem takes between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations.
 
-### Math
+### Specific NLP tasks
 
-1. [Training Verifiers to Solve Math Word Problems (**GSM8K** benchmark)](https://arxiv.org/abs/2110.14168). Karl Cobbe et al, 2021. 8.5K (7.5k training + 1k test) high quality grade school math problems created by human problem writers. Each problem takes between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations.
+#### Question-answering (QA)
 
-### Query-focused summarization
+##### Reading comprehension
 
-1. [**QMSum**: A New Benchmark for Query-based Multi-domain Meeting Summarization](https://arxiv.org/abs/2104.05938). Ming Zhong et al, NAACL 2021. 1,808 query-summary pairs over 232 meetings in multiple domains. Meetings are from 3 categories: product, academic, committee ; and are annotated by AMT workers.
+1. [**SQuAD**: 100,000+ Questions for Machine Comprehension of Text](https://arxiv.org/abs/1606.05250). Rajpurkar et al, EMNLP 2016
+2. [Know What You Don't Know: Unanswerable Questions for SQuAD (**SQuAD 2.0**)](https://arxiv.org/abs/1806.03822). Rajpurkar et al, ACL 2018.
+3. [**QuAC**: Question Answering in Context](https://arxiv.org/abs/1808.07036). Choi et al, EMNLP 2018.
+4. [**BoolQ**: Exploring the Surprising Difficulty of Natural Yes/No Questions](https://aclanthology.org/N19-1300/). Christopher Clark et al, NAACL 2019. 16,000 naturally occurring yes/no questions, split in 9.4k train, 3.2k dev, 3.2k test. Each question is paired with a Wikipedia passage. 
+
+##### Commonsense reasoning
+
+1. [Think you have Solved Question Answering? Try **ARC**, the AI2 Reasoning Challenge](https://arxiv.org/abs/1803.05457). Clark et al, 2018.
+2. [Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering (**OpenBookQA**)](https://arxiv.org/abs/1809.02789). Mihaylov et al, EMNLP 2018.
+3. [**CommonsenseQA**: A Question Answering Challenge Targeting Commonsense Knowledge](https://arxiv.org/abs/1811.00937). Talmor et al, NAACL 2019.
+4. [**HellaSwag**: Can a Machine Really Finish Your Sentence](https://arxiv.org/abs/1905.07830). Zellers et al, ACL 2019.
+5. [**WinoGrande**: An Adversarial Winograd Schema Challenge at Scale](https://arxiv.org/abs/1907.10641). Sakaguchi et al, 2019.
+6. [SocialIQA: Commonsense Reasoning about Social Interactions (**SIQA**)](https://arxiv.org/abs/1904.09728). Sap et al, EMNLP 2019.
+7. [**PIQA**: Reasoning about Physical Commonsense in Natural Language](https://arxiv.org/abs/1911.11641). Bisk et al, AAAI 2020.
+
+##### World knowledge
+
+1. [**TriviaQA**: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension](https://arxiv.org/abs/1705.03551). Joshi et al, 2017. 
+2. [**Natural Questions**: A Benchmark for Question Answering Research](https://aclanthology.org/Q19-1026/). Tom Kwiatkowski et al, TACL 2019. 307,373 training examples with single annotations; 7,830 development examples with 5-way annotations and 7,842 test examples with 5-way annotations. Questions are real anonymized, aggregated queries issued to the Google search engine. Each question is paired with an entire Wikipedia page.
+3. [**TruthfulQA**: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958). Stephanie Lin et al, ACL 2022. 817 questions spanning 38 categories. Question and answers are hand-written by human annotators and designed to elicit imitative falsehoods.
 
 ## Fine-tuning / instruction-tuning datasets
 
