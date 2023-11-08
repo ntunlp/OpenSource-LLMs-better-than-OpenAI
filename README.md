@@ -36,9 +36,15 @@
 
 # High-performing open-source LLMs
 
+In the following, we report cases where an open-source LLM (e.g., Llama-2) outperforms an OpenAI, paying LLM (e.g., ChatGPT). To maintain conciseness, we follow the following reporting guidelines:  
+-Only report the highest performing version of the open-source LLM.
+-Only report the highest performing version of the OpenAI model which is outperformed by the open-source LLM.
+-Average results over all datasets where the open-source LLM is better than the OpenAI LLM.
+We refer the reader to the respective papers for more details.
+
 ## Better pre-training techniques
 
-| **LLM**     | **Date released** | **Pre-training** | **LLM size** | **Eval Dataset (metric)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
+| **LLM**     | **Date released** | **Pre-training** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
 |-------------|-------------------|------------------|--------------|---------------------------|------------------|-------------------|----------------|--------------|
 | **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | From scratch | 1.3B | HumanEval (pass@1) | GPT-3.5 | 47.0 | 50.6 | +7.7% |
 | **Llama-2-Long-Chat** [[paper](https://arxiv.org/abs/2309.16039)] | Sept 27th, 2023 | Llama-2 + 400B tokens | 70B | ZeroScrolls (average) | GPT-3.5-turbo-16k | 36.7 | 37.7 | +2.7% |
@@ -49,7 +55,7 @@
 
 ## Better fine-tuning / instruction-tuning techniques
 
-| **LLM**     | **Date released** | **Backbone LLM** | **LLM size** | **Eval Dataset** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
+| **LLM**     | **Date released** | **Backbone LLM** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
 |-------------|-------------------|------------------|--------------|------------------|------------------|-------------------|----------------|--------------|
 | **UltraLlama** [[paper](https://arxiv.org/abs/2305.14233)] | May 23rd, 2023 | LLama | 13B | TruthfulQA-easy (% true) | ChatGPT | 9.77 | 9.90 | +1.3% |
 | | | | | TruthfulQA-hard (% true) | ChatGPT | 9.30 | 9.33 | +0.3% |
