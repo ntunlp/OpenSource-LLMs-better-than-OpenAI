@@ -47,6 +47,7 @@ We split LLMs depending on the type of training performed:
 -**Continual pre-training** refers to LLMs initialized from an already pre-trained LLM (e.g, Llama-2) and then undergoing another phase of pre-training.  
 -**Instruction tuning** are LLMs trained with supervised fine-tuning on instruction tuning datasets or standard downstream tasks datasets.  
 -**Inference** designates proposed techniques which drive LLM performance while not changing the model weights.  
+Note that a proposed LLM may fall into several of the above 4 categories. In that case, we place it into the most computationally intensive category: for instance, a paper proposing both to continue pre-training Llama-2 and to fine-tune on a new, instruction-tuning dataset will land in the Continual pre-training category.  
 
 ## Pre-training (from scratch)
 
@@ -60,7 +61,7 @@ We split LLMs depending on the type of training performed:
 | **LLM**     | **Date released** | **Pre-training** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
 |-------------|-------------------|------------------|--------------|---------------------------|------------------|-------------------|----------------|--------------|
 | **Llama-2-Long-Chat** [[paper](https://arxiv.org/abs/2309.16039)] | Sept 27th, 2023 | Llama-2 + 400B tokens | 70B | ZeroScrolls | GPT-3.5-turbo-16k | 36.7 | 37.7 | +2.7% |
-| **Lemur** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | Llama-2 + 90B tokens | 70B | HumanEval + GSM8K | GPT-3.5-turbo | 40.77 | 52.50 | +28.77% |
+| **Lemur** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | Llama-2 + 90B tokens | 70B | HumanEval + GSM8K | GPT-3.5-turbo | 40.77 | 52.50 | +28.8% |
 | **InstructRetro** [[paper](https://arxiv.org/abs/2310.07713)] | Oct 11th, 2023 | GPT + 100B tokens | 48B | SQuAD-2.0 | GPT-3 | 59.5 | 75.6 | +27.1% |
 
 ## Instruction tuning
@@ -75,3 +76,7 @@ We split LLMs depending on the type of training performed:
 | **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | Oct 19th, 2023 | LLama-2 | 70B | ALFWorld (SR) | GPT-4 | 46.68 | 54.40 | +16.5% |
 
 ## Better inference techniques 
+
+| **LLM**     | **Date released** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
+|-------------|-------------------|--------------|-------------|------------------|-------------------|----------------|--------------|
+| **CoVe** [[paper](https://arxiv.org/abs/2309.11495)] | Sept 20th, 2023 | 1.3B | Biographies | GPT-3.5 | 58.7 | 71.4 | +21.6% |
