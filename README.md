@@ -75,7 +75,7 @@ Note that a proposed LLM may fall into several of the above 4 categories. In tha
 | **FireAct** [[paper](https://arxiv.org/abs/2310.05915)] | Oct 9th, 2023 | LLama-2 | 13B | HotPotQA (EM) | GPT-3.5 | 31.4 | 34.4 | +9.6% |
 | **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | Oct 19th, 2023 | LLama-2 | 70B | ALFWorld (SR) | GPT-4 | 46.68 | 54.40 | +16.5% |
 
-## Better inference techniques 
+## Inference
 
 | **LLM**     | **Date released** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
 |-------------|-------------------|--------------|-------------|------------------|-------------------|----------------|--------------|
