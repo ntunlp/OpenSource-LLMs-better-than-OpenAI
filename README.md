@@ -46,7 +46,8 @@ We split LLMs depending on the type of training performed:
 -**Pre-training** refers to LLMs pre-trained from scratch.  
 -**Continual pre-training** refers to LLMs initialized from an already pre-trained LLM (e.g, Llama-2) and then undergoing another phase of pre-training.  
 -**Instruction tuning** are LLMs trained with supervised fine-tuning on instruction tuning datasets or standard downstream tasks datasets.  
--**Inference** designates proposed techniques which drive LLM performance while not changing the model weights.  
+-**Inference** designates proposed techniques which drive LLM performance while not changing the model weights.   
+
 Note that a proposed LLM may fall into several of the above 4 categories. In that case, we place it into the most computationally intensive category: for instance, a paper proposing both to continue pre-training Llama-2 and to fine-tune on a new, instruction-tuning dataset will land in the Continual pre-training category.  
 
 ## Pre-training (from scratch)
