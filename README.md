@@ -39,7 +39,7 @@
 In the following, we report cases where an open-source LLM (e.g., Llama-2) outperforms an OpenAI, paying LLM (e.g., ChatGPT). To maintain conciseness, we follow the following reporting guidelines:  
 -Only report the highest performing version of the open-source LLM.  
 -Only report the highest performing version of the OpenAI model which is outperformed by the open-source LLM.  
--Average results over all datasets where the open-source LLM is better than the OpenAI LLM.  
+-Average results over all datasets where the open-source LLM is better than the OpenAI LLM. This implies excluding reported results on datasets where the proposed LLM underperforms all OpenAI LLMs.   
 We refer the reader to the respective papers for more details.  
 
 We split LLMs depending on the type of training performed:  
@@ -52,35 +52,26 @@ We split LLMs depending on the type of training performed:
 
 | **LLM**     | **Date released** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
 |-------------|-------------------|--------------|-------------|------------------|-------------------|----------------|--------------|
-| **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | 1.3B | HumanEval (pass@1) | GPT-3.5 | 47.0 | 50.6 | +7.7% |
-| **Yi** [[github](https://github.com/01-ai/Yi)] | Nov 5th, 2023 | 34B | MMLU (5-shot) | GPT-3.5 | 70.0 | 76.3 | +9.0% |
+| **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | 1.3B | HumanEval | GPT-3.5 | 47.0 | 50.6 | +7.7% |
+| **Yi** [[github](https://github.com/01-ai/Yi)] | Nov 5th, 2023 | 34B | MMLU | GPT-3.5 | 70.0 | 76.3 | +9.0% |
 
-## Continual Pre-training
+## Continual pre-training
 
 | **LLM**     | **Date released** | **Pre-training** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
 |-------------|-------------------|------------------|--------------|---------------------------|------------------|-------------------|----------------|--------------|
 | **Llama-2-Long-Chat** [[paper](https://arxiv.org/abs/2309.16039)] | Sept 27th, 2023 | Llama-2 + 400B tokens | 70B | ZeroScrolls | GPT-3.5-turbo-16k | 36.7 | 37.7 | +2.7% |
 | **Lemur** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | Llama-2 + 90B tokens | 70B | HumanEval + GSM8K | GPT-3.5-turbo | 40.77 | 52.50 | +28.77% |
-| **InstructRetro** [[paper](https://arxiv.org/abs/2310.07713)] | Oct 11th, 2023 | GPT + 100B tokens | 48B | SQuAD-2.0 (F1) | GPT-3 | 59.5 | 75.6 | +27.1% |
+| **InstructRetro** [[paper](https://arxiv.org/abs/2310.07713)] | Oct 11th, 2023 | GPT + 100B tokens | 48B | SQuAD-2.0 | GPT-3 | 59.5 | 75.6 | +27.1% |
 
 ## Instruction tuning
 
 | **LLM**     | **Date released** | **Backbone LLM** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
 |-------------|-------------------|------------------|--------------|------------------|------------------|-------------------|----------------|--------------|
-| **UltraLlama** [[paper](https://arxiv.org/abs/2305.14233)] | May 23rd, 2023 | LLama | 13B | TruthfulQA-easy (% true) | ChatGPT | 9.77 | 9.90 | +1.3% |
-| | | | | TruthfulQA-hard (% true) | ChatGPT | 9.30 | 9.33 | +0.3% |
-| **WizardCoder** [[paper](https://arxiv.org/abs/2306.08568)] | June 14th, 2023 | Alpaca (LLama-2) | 15B | HumanEval (pass@1) | GPT-3.5 | 48.1 | 57.3 | +19.1% |
-| **WizardMath** [[paper](https://arxiv.org/abs/2308.09583)] | Aug 18th, 2023 | LLama-2 | 70B | GSM-8K (SR) | GPT-3.5 | 57.1 | 81.6 | +42.9% |
-| **Llama-2-32k-ret** [[paper](https://arxiv.org/abs/2310.03025)] | Oct 4th, 2023 | LLama-2 | 70B | QMSum (R-1) | GPT-3.5-turbo-16k | 17.6 | 18.5 | +5.1% |
-| | | | | NarrativeQA (F1) | GPT-3.5-turbo-16k | 28.8 | 31.5 | +9.4% |
-| | | | | QuALITY (EM) | GPT-3.5-turbo-16k | 72.6 | 75.6 | +4.1% |
-| | | | | HotPotQA (F1) | GPT-3.5-turbo-16k | 51.6 | 53.9 | +4.5% |
-| | | | | MultiFieldQA-en (F1) | GPT-3.5-turbo-16k | 52.3 | 52.9 | +1.1% |
+| **UltraLlama** [[paper](https://arxiv.org/abs/2305.14233)] | May 23rd, 2023 | LLama | 13B | TruthfulQA | ChatGPT | 9.54 | 9.62 | +0.8% |
+| **WizardCoder** [[paper](https://arxiv.org/abs/2306.08568)] | June 14th, 2023 | Alpaca (LLama-2) | 15B | HumanEval | GPT-3.5 | 48.1 | 57.3 | +19.1% |
+| **WizardMath** [[paper](https://arxiv.org/abs/2308.09583)] | Aug 18th, 2023 | LLama-2 | 70B | GSM8K | GPT-3.5 | 57.1 | 81.6 | +42.9% |
+| **Llama-2-32k-ret** [[paper](https://arxiv.org/abs/2310.03025)] | Oct 4th, 2023 | LLama-2 | 70B | QMSum + 4 QA datasets | GPT-3.5-turbo-16k | 44.58 | 46.48 | +4.3% |
 | **FireAct** [[paper](https://arxiv.org/abs/2310.05915)] | Oct 9th, 2023 | LLama-2 | 13B | HotPotQA (EM) | GPT-3.5 | 31.4 | 34.4 | +9.6% |
-| **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | Oct 19th, 2023 | LLama-2 | 70B | ALFWorld (SR) | GPT-4 | 78.0 | 86.0 | +10.3% |
-| | | | | Knowledge Graph (F1) | GPT-3.5 | 27.2 | 47.0 | +72.8% |
-| | | | | Database (SR) | GPT-4 | 33.7 | 37.7 | +11.9% |
-| | | | | HotPotQA (EM) | GPT-3.5 | 37.4 | 41.6 | +11.2% |
-| | | | | GSM-8K (SR) | GPT-3.5 | 57.1 | 59.7 | +4.6% |
+| **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | Oct 19th, 2023 | LLama-2 | 70B | ALFWorld (SR) | GPT-4 | 46.68 | 54.40 | +16.5% |
 
 ## Better inference techniques 
