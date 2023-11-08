@@ -73,8 +73,8 @@ Note that a proposed LLM may fall into several of the above 4 categories. In tha
 | **WizardCoder** [[paper](https://arxiv.org/abs/2306.08568)] | June 14th, 2023 | Alpaca (LLama-2) | 15B | HumanEval | GPT-3.5 | 48.1 | 57.3 | +19.1% |
 | **WizardMath** [[paper](https://arxiv.org/abs/2308.09583)] | Aug 18th, 2023 | LLama-2 | 70B | GSM8K | GPT-3.5 | 57.1 | 81.6 | +42.9% |
 | **Llama-2-32k-ret** [[paper](https://arxiv.org/abs/2310.03025)] | Oct 4th, 2023 | LLama-2 | 70B | QMSum + 4 QA datasets | GPT-3.5-turbo-16k | 44.58 | 46.48 | +4.3% |
-| **FireAct** [[paper](https://arxiv.org/abs/2310.05915)] | Oct 9th, 2023 | LLama-2 | 13B | HotPotQA (EM) | GPT-3.5 | 31.4 | 34.4 | +9.6% |
-| **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | Oct 19th, 2023 | LLama-2 | 70B | ALFWorld (SR) | GPT-4 | 46.68 | 54.40 | +16.5% |
+| **FireAct** [[paper](https://arxiv.org/abs/2310.05915)] | Oct 9th, 2023 | LLama-2 | 13B | HotPotQA | GPT-3.5 | 31.4 | 34.4 | +9.6% |
+| **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | Oct 19th, 2023 | LLama-2 | 70B | ALFWorld + KG + Database + HotPotQA + GSM8K | GPT-4 | 46.68 | 54.40 | +16.5% |
 
 ## Inference
 
