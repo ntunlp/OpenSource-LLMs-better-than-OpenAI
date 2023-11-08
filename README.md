@@ -37,10 +37,10 @@
 # High-performing open-source LLMs
 
 In the following, we report cases where an open-source LLM (e.g., Llama-2) outperforms an OpenAI, paying LLM (e.g., ChatGPT). To maintain conciseness, we follow the following reporting guidelines:  
--Only report the highest performing version of the open-source LLM.
--Only report the highest performing version of the OpenAI model which is outperformed by the open-source LLM.
--Average results over all datasets where the open-source LLM is better than the OpenAI LLM.
-We refer the reader to the respective papers for more details.
+-Only report the highest performing version of the open-source LLM.  
+-Only report the highest performing version of the OpenAI model which is outperformed by the open-source LLM.  
+-Average results over all datasets where the open-source LLM is better than the OpenAI LLM.  
+We refer the reader to the respective papers for more details.  
 
 ## Better pre-training techniques
 
