@@ -9,9 +9,9 @@
 
 #### General long-context benchmarks 
 
-1. [**Long Range Arena**: A Benchmark for Efficient Transformers](https://arxiv.org/abs/2011.04006). Yi Tay et al, ICLR 2021.
+1. [**Long Range Arena**: A Benchmark for Efficient Transformers](https://arxiv.org/abs/2011.04006). Yi Tay et al, ICLR 2021. Benchmark of 6 tasks, each between 1k and 16k input tokens. Tasks encompass several modalities: text, images, spatial reasoning. 
 2. [**ZeroSCROLLS**: A Zero-Shot Benchmark for Long Text Understanding](https://arxiv.org/abs/2305.14196). Uri Shaham et al, EMNLP 2023. Long-input benchmark containing 10 datasets: 2 summarization tasks ([GovReport](https://arxiv.org/abs/2104.02112) and [SummScreenFD](https://arxiv.org/abs/2104.07091)), 2 query-based summarization tasks ([QMSum](https://arxiv.org/abs/2104.05938) and [SQuALITY](https://arxiv.org/abs/2205.11465)), 4 question-answering datasets ([Qasper](https://arxiv.org/abs/2105.03011), [NarrativeQA](https://arxiv.org/abs/1712.07040), [QuALITY](https://arxiv.org/abs/2112.08608), [MuSiQue](https://arxiv.org/abs/2108.00573)), 2 aggregation tasks ([SpaceDigest](https://arxiv.org/abs/2012.04443), [BookSumSort](https://arxiv.org/abs/2105.08209)).
-3. [**LongBench**: A Bilingual, Multitask Benchmark for Long Context Understanding](https://arxiv.org/abs/2308.14508). Yushi Bai et al, 2023.
+3. [**LongBench**: A Bilingual, Multitask Benchmark for Long Context Understanding](https://arxiv.org/abs/2308.14508). Yushi Bai et al, 2023. Bilingual English/Chinese, multi-task benchmark for long context understanding. 21 datasets across 6 task categories, with an average length of 6,711 words (English) and 13,386 characters (Chinese). The tasks cover key long-text application areas including single-doc QA, multi-doc QA, summarization, few-shot learning, synthetic tasks, and code completion.
 
 #### Long-context summarization 
 
