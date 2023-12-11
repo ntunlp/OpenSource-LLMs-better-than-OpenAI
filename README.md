@@ -76,28 +76,27 @@
 
 # Open-source LLMs vs ChatGPT
 
-In the following, we report cases where an open-source LLM (e.g., Llama-2) outperforms an OpenAI, paying LLM (e.g., ChatGPT). To maintain conciseness, we follow the following reporting guidelines:  
--Only report the highest performing version of the open-source LLM.  
--Only report the highest performing version of the OpenAI model which is outperformed by the open-source LLM.  
--Average results over all datasets where the open-source LLM is better than the OpenAI LLM. This implies excluding reported results on datasets where the proposed LLM underperforms all OpenAI LLMs.   
-We refer the reader to the respective papers for more details.  
+In the following, we report cases where an open-source LLM (e.g., Llama-2) outperforms an OpenAI, paying LLM (e.g., ChatGPT). To maintain conciseness, we only report the highest performing version of the open-source LLM. We report the **Gain (%)** of open-source LLM as their relative improvement compared to ChatGPT (GPT-3.5). 
 
-We split LLMs depending on the type of training performed:  
--**Pre-training** refers to LLMs pre-trained from scratch.  
--**Continual pre-training** refers to LLMs initialized from an already pre-trained LLM (e.g, Llama-2) and then undergoing another phase of pre-training.  
--**Instruction tuning** are LLMs trained with supervised fine-tuning on instruction tuning datasets or standard downstream tasks datasets.  
--**Inference** designates proposed techniques which drive LLM performance while not changing the model weights.   
+We categorize LLMs depending on the type of training performed:  
+-**Pre-training (PT)** refers to LLMs pre-trained from scratch.  
+-**Continual pre-training (CPT)** refers to LLMs initialized from an already pre-trained LLM (e.g, Llama-2) and then undergoing another phase of pre-training.  
+-**Fine-tuning or Instruction tuning (SFT)** are LLMs trained with supervised fine-tuning on instruction tuning datasets or standard downstream tasks datasets.  
+-**Inference (INF)** designates proposed techniques which drive LLM performance while not changing the model weights.   
 
-Note that a proposed LLM may fall into several of the above 4 categories. In that case, we place it into the most computationally intensive category: for instance, a paper proposing both to continue pre-training Llama-2 and to fine-tune on a new, instruction-tuning dataset will land in the Continual pre-training category.  
+Note that a proposed LLM may fall into several of the above 4 categories. 
 
-## Pre-training (from scratch)
+## General capabilities
 
-| **LLM**     | **Date released** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
+| **LLM**     | **Date released** | **LLM size** | **Training** | **MT-Bench** | **AlpacaEval** | **Open LLM LB** | **Gain (%)** |
 |-------------|-------------------|--------------|-------------|------------------|-------------------|----------------|--------------|
-| **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | 1.3B | HumanEval | GPT-3.5 | 47.0 | 50.6 | +7.7% |
-| **Yi** [[github](https://github.com/01-ai/Yi)] | Nov 5th, 2023 | 34B | MMLU | GPT-3.5 | 70.0 | 76.3 | +9.0% |
+| **GPT-3.5-turbo** | Nov 2022 | ? | ? | 7.94 | 81.71 | 70.21
+| **GPT-4** | March 2023 | ? | ? | 8.99 | 95.28 | 85.36
+-------------
+| **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | 1.3B |
+| **Yi** [[github](https://github.com/01-ai/Yi)] | Nov 5th, 2023 | 34B | 
 
-## Continual pre-training
+## Agent capabilities
 
 | **LLM**     | **Date released** | **Pre-training** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
 |-------------|-------------------|------------------|--------------|---------------------------|------------------|-------------------|----------------|--------------|
@@ -105,7 +104,7 @@ Note that a proposed LLM may fall into several of the above 4 categories. In tha
 | **Lemur** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | Llama-2 + 90B tokens | 70B | HumanEval + GSM8K | GPT-3.5-turbo | 40.77 | 52.50 | +28.8% |
 | **InstructRetro** [[paper](https://arxiv.org/abs/2310.07713)] | Oct 11th, 2023 | GPT + 100B tokens | 48B | SQuAD-2.0 | GPT-3 | 59.5 | 75.6 | +27.1% |
 
-## Instruction tuning
+## Logical reasoning 
 
 | **LLM**     | **Date released** | **Backbone LLM** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
 |-------------|-------------------|------------------|--------------|------------------|------------------|-------------------|----------------|--------------|
@@ -116,8 +115,12 @@ Note that a proposed LLM may fall into several of the above 4 categories. In tha
 | **FireAct** [[paper](https://arxiv.org/abs/2310.05915)] | Oct 9th, 2023 | LLama-2 | 13B | HotPotQA | GPT-3.5 | 31.4 | 34.4 | +9.6% |
 | **AgentLM** [[paper](https://arxiv.org/abs/2310.12823)] | Oct 19th, 2023 | LLama-2 | 70B | ALFWorld + KG + Database + HotPotQA + GSM8K | GPT-4 | 46.68 | 54.40 | +16.5% |
 
-## Inference
+## Long-context modelling
 
 | **LLM**     | **Date released** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
 |-------------|-------------------|--------------|-------------|------------------|-------------------|----------------|--------------|
 | **CoVe** [[paper](https://arxiv.org/abs/2309.11495)] | Sept 20th, 2023 | 1.3B | Biographies | GPT-3.5 | 58.7 | 71.4 | +21.6% |
+
+## Application-specific
+
+
