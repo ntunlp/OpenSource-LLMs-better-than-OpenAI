@@ -87,7 +87,7 @@ We categorize LLMs depending on the type of training performed:
 Note that a proposed LLM may fall into several of the above 4 categories. 
 
 
-## General capabilities
+## General capabilities (Table 1)
 
 | **LLM**     | **Date released** | **LLM size** | **Training** | **MT-Bench** | **AlpacaEval** | **Open LLM LB** |
 |-------------|-------------------|--------------|-------------|---------------|----------------|-----------------|
@@ -101,7 +101,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 | **Yi-chat** [[HF card](https://huggingface.co/01-ai/Yi-34B-Chat)] | Nov 23rd, 2023 | 34B | FT | - | - | 68.68 | 
 
 
-## Agent capabilities
+## Agent capabilities (Table 2)
 
 | **LLM**     | **Date released** | **LLM size** | **Training** | **ALFWorld** | **IC-CTF** | **WebAreana** | **Code Generation** |
 |-------------|-------------------|--------------|--------------|--------------|------------|---------------|---------------------|
@@ -111,7 +111,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 | **Lemur-chat** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | 70B | CPT + FT | 59.70 | 22.00 | 5.30 | 17.65
 
 
-## Logical reasoning 
+## Logical reasoning (Table 3)
 
 | **LLM**     | **Date released** | **LLM size** | **Training** | **GSM8K** | **HumanEval** | 
 |-------------|-------------------|--------------|--------------|--------------|------------|
@@ -124,7 +124,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 | **Lemur-chat** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | 70B | CPT + FT | 66.3 | 61.0 |
 
 
-## Long-context modelling (ZeroSCROLLS)
+## Long-context modelling on ZeroSCROLLS (Table 4)
 
 | **LLM**     | **Date released** | **LLM size** | **Training** | **GovReport** | **SummScreen** | **QMSum** | **SQuALITY** | **Qasper** | **NarrativeQA** | **QuALITY** | **MuSiQue** | **SpaceDigest** | **BookSumSort** |  
 |-------------|-------------------|--------------|--------------|---------------|----------------|-----------|--------------|------------|-----------------|-------------|-------------|-----------------|-------------------|
@@ -136,8 +136,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 | **Llama-2-chat-32k + retrieval** [[paper](https://arxiv.org/abs/2310.03025)] | Oct 4th, 2023 | 70B | FT | _ | _ | 18.3 | _ | 31.3 | 24.5 | 69.6 | 26.7 | _ | _ |
 
 
-
-##  
+## Hallucination (Table 5)
 
 | **LLM**     | **Date released** | **LLM size** | **Training** | **TruthfulQA** | **FactScore**| **HotpotQA** | **OpenBookQA** | **MedMC-QA** | **TriviaQA** |
 |-------------|-------------------|--------------|--------------|----------------|--------------|--------------|----------------|--------------|--------------|
