@@ -99,6 +99,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 | **Llama-2-chat** [[paper](https://arxiv.org/abs/2307.09288)] | July 18th, 2023 | 70B | FT | 6.86 | 92.66 | _ | 
 | **Godzilla** [[HF card](https://huggingface.co/MayaPH/GodziLLa2-70B)] | Aug 11th, 2023 | 70B | FT | _ | _ | 67.01 | 
 | **Zephyr** [[paper](https://arxiv.org/abs/2310.16944)] | Oct 25th, 2023 | 70B | FT | 7.34 | 90.60 | 52.15 | 
+| **Yi-chat** [[HF card](https://huggingface.co/01-ai/Yi-34B-Chat)] | Nov 23rd, 2023 | 34B | FT | - | - | 68.68 | 
 
 ## Agent capabilities
 
