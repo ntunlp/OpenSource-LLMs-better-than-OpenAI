@@ -103,11 +103,12 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## Agent capabilities
 
-| **LLM**     | **Date released** | **Pre-training** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
-|-------------|-------------------|------------------|--------------|---------------------------|------------------|-------------------|----------------|--------------|
-| **Llama-2-long-chat** [[paper](https://arxiv.org/abs/2309.16039)] | Sept 27th, 2023 | Llama-2 + 400B tokens | 70B | ZeroScrolls | GPT-3.5-turbo-16k | 36.7 | 37.7 | +2.7% |
-| **Lemur** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | Llama-2 + 90B tokens | 70B | HumanEval + GSM8K | GPT-3.5-turbo | 40.77 | 52.50 | +28.8% |
-| **InstructRetro** [[paper](https://arxiv.org/abs/2310.07713)] | Oct 11th, 2023 | GPT + 100B tokens | 48B | SQuAD-2.0 | GPT-3 | 59.5 | 75.6 | +27.1% |
+| **LLM**     | **Date released** | **LLM size** | **Training** | **ALFWorld** | **IC-CTF** | **WebAreana** | **Code Generation** |
+|-------------|-------------------|--------------|--------------|--------------|------------|---------------|---------------------|
+| **GPT-3.5-turbo** | Nov 2022 | ? | ? | 41.79 | 11.00 | 7.38 | 9.56 |
+| **GPT-4** | March 2023 | ? | ? | 84.33 | 37.00 | 10.59 | _ |
+|-------------|-------------------|--------------|--------------|--------------|------------|---------------|---------------------|
+| **Lemur-chat** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | 70B | CPT + FT | 59.70 | 22.00 | 5.30 | 17.65
 
 ## Logical reasoning 
 
