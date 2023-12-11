@@ -92,7 +92,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 |-------------|-------------------|--------------|-------------|------------------|-------------------|----------------|--------------|
 | **GPT-3.5-turbo** | Nov 2022 | ? | ? | 7.94 | 81.71 | 70.21
 | **GPT-4** | March 2023 | ? | ? | 8.99 | 95.28 | 85.36
--------------
+|-------------
 | **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | 1.3B |
 | **Yi** [[github](https://github.com/01-ai/Yi)] | Nov 5th, 2023 | 34B | 
 
