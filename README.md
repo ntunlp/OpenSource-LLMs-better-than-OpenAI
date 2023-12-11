@@ -126,7 +126,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## Long-context modelling (ZeroSCROLLS)
 
-| **LLM**     | **Date released** | **LLM size** | **Training** | **GovReport** | **SummScreen** | **QMSum** | **SQuALITY** | **Qasper** | **NarrativeQA** | **QuALITY** | **MuSiQue** | **SpaceDigest** | **SBookSumSort** |  
+| **LLM**     | **Date released** | **LLM size** | **Training** | **GovReport** | **SummScreen** | **QMSum** | **SQuALITY** | **Qasper** | **NarrativeQA** | **QuALITY** | **MuSiQue** | **SpaceDigest** | **BookSumSort** |  
 |-------------|-------------------|--------------|--------------|---------------|----------------|-----------|--------------|------------|-----------------|-------------|-------------|-----------------|-------------------|
 | **GPT-3.5-turbo** | Nov 2022 | ? | ? | 21.3 | 16.1 | 15.6 | 20.4 | 49.3 | 25.1 | 66.6 | 27.1 | 49.1 | 49.8 | 
 | **GPT-3.5-turbo-16k** | Nov 2022 | ? | ? | 24.3 | 16.2 | 17.4 | 21.4 | 50.0 | 29.5 | 72.0 | 27.0 | 54.1 | 54.6 | 
@@ -137,3 +137,16 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 
 
+##  
+
+| **LLM**     | **Date released** | **LLM size** | **Training** | **TruthfulQA** | **FactScore**| **HotpotQA** | **OpenBookQA** | **MedMC-QA** | **TriviaQA** |
+|-------------|-------------------|--------------|--------------|----------------|--------------|--------------|----------------|--------------|--------------|
+| **GPT-3.5-turbo** | Nov 2022 | ? | ? | 47.0 | 58.7 | 24.0 | 78.3 | 44.4 | 79.3 |
+|-------------|-------------------|--------------|--------------|----------------|--------------|--------------|----------------|--------------|--------------|
+| text-davinci-002 + **PKG** [[paper](https://arxiv.org/abs/2305.04757)] | May 8th, 2023 | 175B | INF | _ | _ | _ | _ | 47.4 | _ |
+| GPT-3.5-turbo + **CRITIC** [[paper](https://arxiv.org/abs/2305.11738)] | May 19th, 2023 | _ | INF | _ | _ | 38.7 | _ | _ | 75.1 |
+| text-davinci-002 + **LMvsLM** [[paper](https://arxiv.org/abs/2305.13281)] | May 22nd, 2023 | 175B | INF | _ | _ | _ | _ | _ | 83.1 |
+| GPT-3.5-turbo + **CoK** [[paper](https://arxiv.org/abs/2305.13269)] | May 22nd, 2023 | _ | INF | _ | _ | 35.4 | _ | 73.3 | _ |
+| **Platypus** [[paper](https://arxiv.org/abs/2308.07317)] | Aug 14th, 2023 | 70B | FT | 62.3 | _ | _ | _ | _ | _ |
+| GPT-3.5-turbo + **KSL** [[paper](https://arxiv.org/abs/2309.03118)] | Sept 6th, 2023 | _ | FT | _ | _ | _ | 81.6 | _ | _ |
+| LLama + **CoVe** [[paper](https://arxiv.org/abs/2309.11495)] | Sept 20th, 2023 | 65B | FT + INF | _ | 71.4 | _ | _ | _ | _ | 
