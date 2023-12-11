@@ -81,26 +81,30 @@ In the following, we report cases where an open-source LLM (e.g., Llama-2) outpe
 We categorize LLMs depending on the type of training performed:  
 -**Pre-training (PT)** refers to LLMs pre-trained from scratch.  
 -**Continual pre-training (CPT)** refers to LLMs initialized from an already pre-trained LLM (e.g, Llama-2) and then undergoing another phase of pre-training.  
--**Fine-tuning or Instruction tuning (SFT)** are LLMs trained with supervised fine-tuning on instruction tuning datasets or standard downstream tasks datasets.  
+-**Fine-tuning or Instruction tuning (FT)** are LLMs trained with supervised fine-tuning on instruction tuning datasets or standard downstream tasks datasets.  
 -**Inference (INF)** designates proposed techniques which drive LLM performance while not changing the model weights.   
 
 Note that a proposed LLM may fall into several of the above 4 categories. 
 
+| **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | 1.3B |
+
 ## General capabilities
 
-| **LLM**     | **Date released** | **LLM size** | **Training** | **MT-Bench** | **AlpacaEval** | **Open LLM LB** | **Gain (%)** |
-|-------------|-------------------|--------------|-------------|------------------|-------------------|----------------|--------------|
-| **GPT-3.5-turbo** | Nov 2022 | ? | ? | 7.94 | 81.71 | 70.21
-| **GPT-4** | March 2023 | ? | ? | 8.99 | 95.28 | 85.36
-|-------------
-| **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | 1.3B |
-| **Yi** [[github](https://github.com/01-ai/Yi)] | Nov 5th, 2023 | 34B | 
+| **LLM**     | **Date released** | **LLM size** | **Training** | **MT-Bench** | **AlpacaEval** | **Open LLM LB** |
+|-------------|-------------------|--------------|-------------|---------------|----------------|-----------------|
+| **GPT-3.5-turbo** | Nov 2022 | ? | ? | 7.94 | 81.71 | 70.21 | 
+| **GPT-4** | March 2023 | ? | ? | 8.99 | 95.28 | 85.36 | 
+|-------------|-------------------|--------------|-------------|---------------|----------------|-----------------|
+| **WizardLM** [[paper](https://arxiv.org/abs/2304.12244)] | April 24th 18th, 2023 | 70B | FT | 7.71 | 92.91 | _ | 
+| **Llama-2-chat** [[paper](https://arxiv.org/abs/2307.09288)] | July 18th, 2023 | 70B | FT | 6.86 | 92.66 | _ | 
+| **Godzilla** [[HF card](https://huggingface.co/MayaPH/GodziLLa2-70B)] | Aug 11th, 2023 | 70B | FT | _ | _ | 67.01 | 
+| **Zephyr** [[paper](https://arxiv.org/abs/2310.16944)] | Oct 25th, 2023 | 70B | FT | 7.34 | 90.60 | 52.15 | 
 
 ## Agent capabilities
 
 | **LLM**     | **Date released** | **Pre-training** | **LLM size** | **Task(s)** | **OpenAI model** | **OpenAI result** | **LLM result** | **Gain (%)** |
 |-------------|-------------------|------------------|--------------|---------------------------|------------------|-------------------|----------------|--------------|
-| **Llama-2-Long-Chat** [[paper](https://arxiv.org/abs/2309.16039)] | Sept 27th, 2023 | Llama-2 + 400B tokens | 70B | ZeroScrolls | GPT-3.5-turbo-16k | 36.7 | 37.7 | +2.7% |
+| **Llama-2-long-chat** [[paper](https://arxiv.org/abs/2309.16039)] | Sept 27th, 2023 | Llama-2 + 400B tokens | 70B | ZeroScrolls | GPT-3.5-turbo-16k | 36.7 | 37.7 | +2.7% |
 | **Lemur** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | Llama-2 + 90B tokens | 70B | HumanEval + GSM8K | GPT-3.5-turbo | 40.77 | 52.50 | +28.8% |
 | **InstructRetro** [[paper](https://arxiv.org/abs/2310.07713)] | Oct 11th, 2023 | GPT + 100B tokens | 48B | SQuAD-2.0 | GPT-3 | 59.5 | 75.6 | +27.1% |
 
