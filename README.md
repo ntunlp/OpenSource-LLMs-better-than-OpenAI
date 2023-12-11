@@ -74,7 +74,7 @@
 3. [**OpenAssistant Conversations** -- Democratizing Large Language Model Alignment](https://arxiv.org/abs/2304.07327). Andreas Köpf et al, 2023. 161,443 messages (91,829 prompter and 69,614 assistant messages) distributed across 66,497 conversation trees, in 35 different languages, annotated with 461,292 quality ratings.
 
 
-# High-performing open-source LLMs
+# Open-source LLMs vs ChatGPT
 
 In the following, we report cases where an open-source LLM (e.g., Llama-2) outperforms an OpenAI, paying LLM (e.g., ChatGPT). To maintain conciseness, we follow the following reporting guidelines:  
 -Only report the highest performing version of the open-source LLM.  
