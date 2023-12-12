@@ -7,9 +7,11 @@
 
 ### General capabilities
 
-1. [LLM-as-a-judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685). Lianmin Zheng et al, Neurips 2023. 80 multi-turn questions from 8 categories: writing, roleplay, extraction, reasoning, math, coding, knowledge I (STEM), and knowledge II (humanities/social science).
+1. [LLM-as-a-judge with **MT-Bench** and Chatbot Arena](https://arxiv.org/abs/2306.05685). Lianmin Zheng et al, Neurips 2023. 80 multi-turn questions from 8 categories: writing, roleplay, extraction, reasoning, math, coding, knowledge I (STEM), and knowledge II (humanities/social science).
 2. [**AlpacaEval**](https://github.com/tatsu-lab/alpaca_eval). 805 instructions to follow from the AlpacaFarm evaluation set.
-3. [**Open LLM Leaderboard**](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). Live leaderboard ranking LLMs on ARC, HellaSwag, MMLU, TruthfulQA, Winogrande, GSM8K. 
+3. [**Open LLM Leaderboard**](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). Live leaderboard ranking LLMs on ARC, HellaSwag, MMLU, TruthfulQA, Winogrande, GSM8K.
+4. [Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models (**Big-Bench**)](https://arxiv.org/abs/2206.04615). Aarohi Srivastava et al, TLMR 2023. Large benchmark of 204 tasks, contributed by 450 authors across 132 institutions, including tasks from: linguistics, childhood development, maths, common-sense reasoning, biology, physics, etc.
+5. [Large Language Models are not Fair Evaluators (**FairEval-Vicuna**)](https://arxiv.org/abs/2305.17926)). Peiyi Wang et al, 2023. 80 questions from the Vicuna Benchmark, with multiple evidence calibration and balanced position calibration .
 
 ### Logical reasoning (maths, coding, etc)
 
