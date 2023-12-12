@@ -137,7 +137,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## Agent capabilities (Table 2)
 
-| **LLM**     | **Date released** | **LLM size** | **Training** | **ALFWorld** | **IC-CTF** | **WebAreana** | **Code Generation** |
+| **LLM**     | **Date released** | **LLM size** | **Training** | **ALFWorld** | **InterCode-CTF** | **WebArena** | **Code Generation** |
 |-------------|-------------------|--------------|--------------|--------------|------------|---------------|---------------------|
 | **GPT-3.5-turbo** | Nov 2022 | ? | ? | 41.79 | 11.00 | 7.38 | 9.56 |
 | **GPT-4** | March 2023 | ? | ? | 84.33 | 37.00 | 10.59 | _ |
