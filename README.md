@@ -7,11 +7,12 @@
 
 ### 1/ General capabilities
 
-1. [LLM-as-a-judge with **MT-Bench** and Chatbot Arena](https://arxiv.org/abs/2306.05685). Lianmin Zheng et al, Neurips 2023. 80 multi-turn questions from 8 categories: writing, roleplay, extraction, reasoning, math, coding, knowledge I (STEM), and knowledge II (humanities/social science).
-2. [**AlpacaEval**](https://github.com/tatsu-lab/alpaca_eval). 805 instructions to follow from the AlpacaFarm evaluation set.
-3. [**Open LLM Leaderboard**](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). Live leaderboard ranking LLMs on ARC, HellaSwag, MMLU, TruthfulQA, Winogrande, GSM8K.
-4. [Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models (**Big-Bench**)](https://arxiv.org/abs/2206.04615). Aarohi Srivastava et al, TLMR 2023. Large benchmark of 204 tasks, contributed by 450 authors across 132 institutions, including tasks from: linguistics, childhood development, maths, common-sense reasoning, biology, physics, etc.
-5. [Large Language Models are not Fair Evaluators (**FairEval-Vicuna**)](https://arxiv.org/abs/2305.17926). Peiyi Wang et al, 2023. 80 questions from the Vicuna Benchmark, with multiple evidence calibration and balanced position calibration.
+1. [Measuring Massive Multitask Language Understanding (**MMLU**)](https://arxiv.org/abs/2009.03300). Dan Hendrycks et al, ICLR 2021. 15,908 questions (14,079 for test set) from 57 tasks (mathematics, US history, computer science, law, etc).
+2. [LLM-as-a-judge with **MT-Bench** and Chatbot Arena](https://arxiv.org/abs/2306.05685). Lianmin Zheng et al, Neurips 2023. 80 multi-turn questions from 8 categories: writing, roleplay, extraction, reasoning, math, coding, knowledge I (STEM), and knowledge II (humanities/social science).
+3. [**AlpacaEval**](https://github.com/tatsu-lab/alpaca_eval). 2023. 805 instructions to follow from the AlpacaFarm evaluation set.
+4. [**Open LLM Leaderboard**](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). 2023. Live leaderboard ranking LLMs on ARC, HellaSwag, MMLU, TruthfulQA, Winogrande, GSM8K.
+5. [Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models (**Big-Bench**)](https://arxiv.org/abs/2206.04615). Aarohi Srivastava et al, TLMR 2023. Large benchmark of 204 tasks, contributed by 450 authors across 132 institutions, including tasks from: linguistics, childhood development, maths, common-sense reasoning, biology, physics, etc.
+6. [Large Language Models are not Fair Evaluators (**FairEval-Vicuna**)](https://arxiv.org/abs/2305.17926). Peiyi Wang et al, 2023. 80 questions from the Vicuna Benchmark, with multiple evidence calibration and balanced position calibration.
 
 ### 2/ Agent capabilities
 
@@ -137,7 +138,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 | **GPT-3.5-turbo** | Nov 2022 | ? | ? | 7.94 | 81.71 | 70.21 | 
 | **GPT-4** | March 2023 | ? | ? | 8.99 | 95.28 | 85.36 | 
 |-------------|-------------------|--------------|-------------|---------------|----------------|-----------------|
-| **WizardLM** [[paper](https://arxiv.org/abs/2304.12244)] | April 24th 18th, 2023 | 70B | FT | 7.71 | 92.91 | _ | 
+| **WizardLM** [[paper](https://arxiv.org/abs/2304.12244)] | April 24th, 2023 | 70B | FT | 7.71 | 92.91 | _ | 
 | **Llama-2-chat** [[paper](https://arxiv.org/abs/2307.09288)] | July 18th, 2023 | 70B | FT | 6.86 | 92.66 | _ | 
 | **Godzilla** [[HF card](https://huggingface.co/MayaPH/GodziLLa2-70B)] | Aug 11th, 2023 | 70B | FT | _ | _ | 67.01 | 
 | **Zephyr** [[paper](https://arxiv.org/abs/2310.16944)] | Oct 25th, 2023 | 70B | FT | 7.34 | 90.60 | 52.15 | 
