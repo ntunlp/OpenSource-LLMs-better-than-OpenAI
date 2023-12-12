@@ -5,7 +5,7 @@
 
 ## Evaluation datasets
 
-### General capabilities
+### 1/ General capabilities
 
 1. [LLM-as-a-judge with **MT-Bench** and Chatbot Arena](https://arxiv.org/abs/2306.05685). Lianmin Zheng et al, Neurips 2023. 80 multi-turn questions from 8 categories: writing, roleplay, extraction, reasoning, math, coding, knowledge I (STEM), and knowledge II (humanities/social science).
 2. [**AlpacaEval**](https://github.com/tatsu-lab/alpaca_eval). 805 instructions to follow from the AlpacaFarm evaluation set.
@@ -13,7 +13,7 @@
 4. [Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models (**Big-Bench**)](https://arxiv.org/abs/2206.04615). Aarohi Srivastava et al, TLMR 2023. Large benchmark of 204 tasks, contributed by 450 authors across 132 institutions, including tasks from: linguistics, childhood development, maths, common-sense reasoning, biology, physics, etc.
 5. [Large Language Models are not Fair Evaluators (**FairEval-Vicuna**)](https://arxiv.org/abs/2305.17926). Peiyi Wang et al, 2023. 80 questions from the Vicuna Benchmark, with multiple evidence calibration and balanced position calibration.
 
-### Agent capabilities
+### 2/ Agent capabilities
 
 #### Tool usage
 
@@ -39,12 +39,12 @@
 2. [InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback (**InterCode-CTF**)](https://arxiv.org/abs/2306.14898). John Yang et al, 2023.
 3. [**WebArena**: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854). Shuyan Zhou et al, 2023.
 
-### Logical reasoning (maths, coding, etc)
+### 3/ Logical reasoning (maths, coding, etc)
 
 1. [Evaluating Large Models Trained on Code (**HumanEval** benchmark)](https://arxiv.org/abs/2107.03374). Mark Chen et al, 2021. 164 hand-written programming problems. Each problem includes a function signature, docstring, body, and several unit tests, with an average of 7.7 tests per problem.
 2. [Training Verifiers to Solve Math Word Problems (**GSM8K** benchmark)](https://arxiv.org/abs/2110.14168). Karl Cobbe et al, 2021. 8.5K (7.5k training + 1k test) high quality grade school math problems created by human problem writers. Each problem takes between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations.
 
-### Long-context (summarization, QA, etc)
+### 4/ Long-context (summarization, QA, etc)
 
 #### General long-context benchmarks 
 
@@ -74,7 +74,7 @@
 3. [**QuALITY**: Question Answering with Long Input Texts, Yes!](https://arxiv.org/abs/2112.08608). Pang et al, NAACL 2022. Multiple-choice QA dataset with context passages in English that have an average length of about 5,000 tokens. 6,737 questions split into 2,523/2,086/2,128 train/dev/test. 
 4. [**MuSiQue**: Multihop Questions via Single-hop Question Composition](https://arxiv.org/abs/2108.00573) Trivedi et al, TACL 2022. Multihop QA dataset with 25K 2-4 hop questions, split into 19,938/2,417/2,459 train/dev/test. 
 
-### Specific NLP tasks
+### 5/ Specific NLP tasks
 
 #### Question-answering (QA)
 
@@ -106,7 +106,7 @@
 
 1. [**MedMCQA**: A Large-scale Multi-Subject Multi-Choice Dataset for Medical domain Question Answering](https://arxiv.org/abs/2203.14371). Ankit Pal et al, ACM CHIL 2022. 194k multiple-choice questions from real world medical entrance exams.
 
-#### Evaluation of text generation, including hallucinations
+#### 6/ Trustworthy AI
 
 1. [**FActScore**: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation](https://arxiv.org/abs/2305.14251). Sewon Min et al, EMNLP 2023. Evaluation of LLMs at generating people biographies, using precision of atomic facts.
 
