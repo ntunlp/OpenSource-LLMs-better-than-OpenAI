@@ -5,6 +5,12 @@
 
 ## Evaluation datasets
 
+### General capabilities
+
+1. [LLM-as-a-judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685). Lianmin Zheng et al, Neurips 2023. 80 multi-turn questions from 8 categories: writing, roleplay, extraction, reasoning, math, coding, knowledge I (STEM), and knowledge II (humanities/social science).
+2. [**AlpacaEval**](https://github.com/tatsu-lab/alpaca_eval). 805 instructions to follow from the AlpacaFarm evaluation set.
+3. [**Open LLM Leaderboard**](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). Live leaderboard ranking LLMs on ARC, HellaSwag, MMLU, TruthfulQA, Winogrande, GSM8K. 
+
 ### Logical reasoning (maths, coding, etc)
 
 1. [Evaluating Large Models Trained on Code (**HumanEval** benchmark)](https://arxiv.org/abs/2107.03374). Mark Chen et al, 2021. 164 hand-written programming problems. Each problem includes a function signature, docstring, body, and several unit tests, with an average of 7.7 tests per problem.
