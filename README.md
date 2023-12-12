@@ -106,7 +106,7 @@
 
 1. [**MedMCQA**: A Large-scale Multi-Subject Multi-Choice Dataset for Medical domain Question Answering](https://arxiv.org/abs/2203.14371). Ankit Pal et al, ACM CHIL 2022. 194k multiple-choice questions from real world medical entrance exams.
 
-#### 6/ Trustworthy AI
+### 6/ Trustworthy AI
 
 1. [**FActScore**: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation](https://arxiv.org/abs/2305.14251). Sewon Min et al, EMNLP 2023. Evaluation of LLMs at generating people biographies, using precision of atomic facts.
 
