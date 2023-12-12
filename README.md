@@ -165,6 +165,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 | **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | 1.3B | PT + FT | _ | 50.6 |
 | **WizardMath** [[paper](https://arxiv.org/abs/2308.09583)] | Aug 18th, 2023 | 70B | FT | 81.6 | _ |
 | **Lemur-chat** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | 70B | CPT + FT | 66.3 | 61.0 |
+| **Mixtral 8x7B** [[blog](https://mistral.ai/news/mixtral-of-experts/)] | Dec 11th, 2023 | 7B (x8 MoE) | FT | 58.4 | _ |
 
 
 ## Long-context modelling on ZeroSCROLLS (Table 4)
