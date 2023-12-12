@@ -88,18 +88,27 @@
 ##### Commonsense reasoning
 
 1. [Think you have Solved Question Answering? Try **ARC**, the AI2 Reasoning Challenge](https://arxiv.org/abs/1803.05457). Clark et al, 2018. 7,787 natural, grade-school science questions (authored for human tests), split into 3,370/869/3,548 train/dev/test.
-2. [Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering (**OpenBookQA**)](https://arxiv.org/abs/1809.02789). Mihaylov et al, EMNLP 2018. Dataset modeled after open book exams for assessing human understanding of a subject. Around 6k questions (4957/500/500 train/dev/test) probe an understanding of 1,329 elementary level science facts. 
-3. [**CommonsenseQA**: A Question Answering Challenge Targeting Commonsense Knowledge](https://arxiv.org/abs/1811.00937). Talmor et al, NAACL 2019. 12,247 multiple-choice questions that mention the source concept and discriminate in turn between each of the target concepts. 
-4. [**HellaSwag**: Can a Machine Really Finish Your Sentence](https://arxiv.org/abs/1905.07830). Zellers et al, ACL 2019. Questions collected with Adversarial Filtering (AF), a data collection paradigm wherein a series of discriminators iteratively select an adversarial set of machine-generated wrong answers.
-5. [**WinoGrande**: An Adversarial Winograd Schema Challenge at Scale](https://arxiv.org/abs/1907.10641). Sakaguchi et al, 2019. Large-scale dataset of 44k problems, inspired by the original Winograd Schema Challenge (WSC), a benchmark for commonsense reasoning made of 273 expert-crafted pronoun resolution problems originally designed to be unsolvable for statistical models that rely on selectional preferences or word associations. 12,282 instances split into 9,248/1,267/1,767 train/dev/test sets.
-6. [SocialIQA: Commonsense Reasoning about Social Interactions (**SIQA**)](https://arxiv.org/abs/1904.09728). Sap et al, EMNLP 2019. 38k (33,410/1,954/2,224 train/dev/test) multiple-choice commonsense questions along with correct and incorrect answers about social interactions collected through crowdsourcing. 
-7. [**PIQA**: Reasoning about Physical Commonsense in Natural Language](https://arxiv.org/abs/1911.11641). Bisk et al, AAAI 2020. Benchmarking progress in physical commonsense understanding, with 16k/2k/3k train/dev/test QA pairs. 
+2. [**HotpotQA**: A Dataset for Diverse, Explainable Multi-hop Question Answering](https://arxiv.org/abs/1809.09600). Zhilin Yang et al, EMNLP 2018. 113k QA pairs from Wikipedia which require reasoning from multiple documents. 
+3. [Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering (**OpenBookQA**)](https://arxiv.org/abs/1809.02789). Mihaylov et al, EMNLP 2018. Dataset modeled after open book exams for assessing human understanding of a subject. Around 6k questions (4957/500/500 train/dev/test) probe an understanding of 1,329 elementary level science facts. 
+4. [**CommonsenseQA**: A Question Answering Challenge Targeting Commonsense Knowledge](https://arxiv.org/abs/1811.00937). Talmor et al, NAACL 2019. 12,247 multiple-choice questions that mention the source concept and discriminate in turn between each of the target concepts. 
+5. [**HellaSwag**: Can a Machine Really Finish Your Sentence](https://arxiv.org/abs/1905.07830). Zellers et al, ACL 2019. Questions collected with Adversarial Filtering (AF), a data collection paradigm wherein a series of discriminators iteratively select an adversarial set of machine-generated wrong answers.
+6. [**WinoGrande**: An Adversarial Winograd Schema Challenge at Scale](https://arxiv.org/abs/1907.10641). Sakaguchi et al, 2019. Large-scale dataset of 44k problems, inspired by the original Winograd Schema Challenge (WSC), a benchmark for commonsense reasoning made of 273 expert-crafted pronoun resolution problems originally designed to be unsolvable for statistical models that rely on selectional preferences or word associations. 12,282 instances split into 9,248/1,267/1,767 train/dev/test sets.
+7. [SocialIQA: Commonsense Reasoning about Social Interactions (**SIQA**)](https://arxiv.org/abs/1904.09728). Sap et al, EMNLP 2019. 38k (33,410/1,954/2,224 train/dev/test) multiple-choice commonsense questions along with correct and incorrect answers about social interactions collected through crowdsourcing. 
+8. [**PIQA**: Reasoning about Physical Commonsense in Natural Language](https://arxiv.org/abs/1911.11641). Bisk et al, AAAI 2020. Benchmarking progress in physical commonsense understanding, with 16k/2k/3k train/dev/test QA pairs. 
 
 ##### World knowledge
 
 1. [**TriviaQA**: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension](https://arxiv.org/abs/1705.03551). Joshi et al, 2017. 95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents, six per question on average.
 2. [**Natural Questions**: A Benchmark for Question Answering Research](https://aclanthology.org/Q19-1026/). Tom Kwiatkowski et al, TACL 2019. 307,373 training examples with single annotations; 7,830 development examples with 5-way annotations and 7,842 test examples with 5-way annotations. Questions are real anonymized, aggregated queries issued to the Google search engine. Each question is paired with an entire Wikipedia page.
 3. [**TruthfulQA**: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/abs/2109.07958). Stephanie Lin et al, ACL 2022. 817 questions spanning 38 categories. Question and answers are hand-written by human annotators and designed to elicit imitative falsehoods.
+
+##### Specific domain
+
+1. [**MedMCQA**: A Large-scale Multi-Subject Multi-Choice Dataset for Medical domain Question Answering](https://arxiv.org/abs/2203.14371). Ankit Pal et al, ACM CHIL 2022. 194k multiple-choice questions from real world medical entrance exams.
+
+#### Evaluation of text generation, including hallucinations
+
+1. [**FActScore**: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation](https://arxiv.org/abs/2305.14251). Sewon Min et al, EMNLP 2023. Evaluation of LLMs at generating people biographies, using precision of atomic facts.
 
 ## Fine-tuning / instruction-tuning datasets
 
