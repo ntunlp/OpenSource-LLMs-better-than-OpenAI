@@ -11,7 +11,33 @@
 2. [**AlpacaEval**](https://github.com/tatsu-lab/alpaca_eval). 805 instructions to follow from the AlpacaFarm evaluation set.
 3. [**Open LLM Leaderboard**](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). Live leaderboard ranking LLMs on ARC, HellaSwag, MMLU, TruthfulQA, Winogrande, GSM8K.
 4. [Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models (**Big-Bench**)](https://arxiv.org/abs/2206.04615). Aarohi Srivastava et al, TLMR 2023. Large benchmark of 204 tasks, contributed by 450 authors across 132 institutions, including tasks from: linguistics, childhood development, maths, common-sense reasoning, biology, physics, etc.
-5. [Large Language Models are not Fair Evaluators (**FairEval-Vicuna**)](https://arxiv.org/abs/2305.17926)). Peiyi Wang et al, 2023. 80 questions from the Vicuna Benchmark, with multiple evidence calibration and balanced position calibration .
+5. [Large Language Models are not Fair Evaluators (**FairEval-Vicuna**)](https://arxiv.org/abs/2305.17926). Peiyi Wang et al, 2023. 80 questions from the Vicuna Benchmark, with multiple evidence calibration and balanced position calibration.
+
+### Agent capabilities
+
+#### Tool usage
+
+1. [**API-Bank**: A Comprehensive Benchmark for Tool-Augmented LLMs](https://arxiv.org/abs/2304.08244). Minghao Li et al, EMNLP 2023.
+2. [On the Tool Manipulation Capability of Open-source Large Language Models (**ToolBench**)](https://arxiv.org/abs/2305.16504). Qiantong Xu et al, 2023.
+3. [Gorilla: Large Language Model Connected with Massive APIs (**APIBench**)](https://arxiv.org/abs/2305.15334). Shishir G. Patil et al, 2023.
+4. [**ToolAlpaca**: Generalized Tool Learning for Language Models with 3000 Simulated Cases](https://arxiv.org/abs/2306.05301). Qiaoyu Tang et al, 2023.
+5. [**MINT**: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback](https://arxiv.org/abs/2309.10691). Xingyao Wang et al, 2023.
+
+#### Self-debugging
+
+1. [InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback (**InterCode-Bash** and **InterCode-SQL**)](https://arxiv.org/abs/2306.14898). John Yang et al, 2023.
+2. [MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback (**MINT-MBPP** and **MINT-HumanEval**)](https://arxiv.org/abs/2309.10691). Xingyao Wang et al, 2023.
+3. [Code as Policies: Language Model Programs for Embodied Control (**RoboCodeGen**)](https://arxiv.org/abs/2209.07753). Jacky Liang et al, 2023.
+
+#### Following feedback 
+
+1. [**MINT**: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback](https://arxiv.org/abs/2309.10691). Xingyao Wang et al, 2023.
+
+#### Exploring environment
+
+1. [**ALFWorld**: Aligning Text and Embodied Environments for Interactive Learning](https://arxiv.org/abs/2010.03768). Mohit Shridhar et al, ICLR 2021.
+2. [InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback (**InterCode-CTF**)](https://arxiv.org/abs/2306.14898). John Yang et al, 2023.
+3. [**WebArena**: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854). Shuyan Zhou et al, 2023.
 
 ### Logical reasoning (maths, coding, etc)
 
