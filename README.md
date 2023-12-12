@@ -183,7 +183,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## Hallucination (Table 5)
 
-| **LLM**     | **Date released** | **LLM size** | **Training** | **TruthfulQA** | **FactScore**| **HotpotQA** | **OpenBookQA** | **MedMC-QA** | **TriviaQA** |
+| **LLM**     | **Date released** | **LLM size** | **Training** | **TruthfulQA** | **FactScore**| **HotpotQA** | **OpenBookQA** | **MedMC-QA** | **TriviaQA** |  
 |-------------|-------------------|--------------|--------------|:-:|-:-:|:-:|:-:|:-:|:-:|
 | **GPT-3.5-turbo** | Nov 2022 | ? | ? | 47.0 | 58.7 | 24.0 | 78.3 | 44.4 | 79.3 |
 |-------------|-------------------|--------------|--------------|----------------|--------------|--------------|----------------|--------------|--------------|
