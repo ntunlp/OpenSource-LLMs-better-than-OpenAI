@@ -194,3 +194,14 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 | **Platypus** [[paper](https://arxiv.org/abs/2308.07317)] | Aug 14th, 2023 | 70B | FT | 62.3 | _ | _ | _ | _ | _ |
 | GPT-3.5-turbo + **KSL** [[paper](https://arxiv.org/abs/2309.03118)] | Sept 6th, 2023 | _ | FT | _ | _ | _ | 81.6 | _ | _ |
 | LLama + **CoVe** [[paper](https://arxiv.org/abs/2309.11495)] | Sept 20th, 2023 | 65B | FT + INF | _ | 71.4 | _ | _ | _ | _ | 
+
+# Citation
+
+If our work is useful to your research, please consider citing our survey:
+'''
+@article{chen2023chatgpt,
+  title={ChatGPT's One-year Anniversary: Are Open-Source Large Language Models Catching up?},
+  author={Chen, Hailin and Jiao, Fangkai and Li, Xingxuan and Qin, Chengwei and Ravaut, Mathieu and Zhao, Ruochen and Xiong, Caiming and Joty, Shafiq},
+  journal={arXiv preprint arXiv:2311.16989},
+  year={2023}
+}
