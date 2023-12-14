@@ -198,7 +198,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 # Citation
 
 If our work is useful to your research, please consider citing our survey:
-'''
+```
 @article{chen2023chatgpt,
   title={ChatGPT's One-year Anniversary: Are Open-Source Large Language Models Catching up?},
   author={Chen, Hailin and Jiao, Fangkai and Li, Xingxuan and Qin, Chengwei and Ravaut, Mathieu and Zhao, Ruochen and Xiong, Caiming and Joty, Shafiq},
