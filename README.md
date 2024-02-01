@@ -133,8 +133,8 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## General capabilities (Table 1)
 
-| **LLM**     | **Date released** | **LLM size** | **Training** | **MT-Bench** | **AlpacaEval** | **AlpacaEval-2** | **Open LLM** |
-|-------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|
+| **LLM**            | **Date released** | **LLM size** | **Training** | **MT-Bench** | **AlpacaEval** | **AlpacaEval-2** | **Open LLM** |
+|--------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|
 | **WizardLM** [[paper](https://arxiv.org/abs/2304.12244)] | April 24th, 2023 | 70B | FT | 7.71 | 92.91 | 12.03 | _ | 
 | **Llama-2-chat** [[paper](https://arxiv.org/abs/2307.09288)] | July 18th, 2023 | 70B | FT | 6.86 | 92.66 | 13.87 | _ | 
 | **Godzilla** [[HF card](https://huggingface.co/MayaPH/GodziLLa2-70B)] | Aug 11th, 2023 | 70B | FT | _ | _ | _ | 67.01 | 
@@ -142,17 +142,17 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 | **Yi-chat** [[HF card](https://huggingface.co/01-ai/Yi-34B-Chat)] | Nov 23rd, 2023 | 34B | FT | _ | 94.08 | 29.6 | 68.68 | 
 | **Mixtral-8x7B** [[paper](https://arxiv.org/abs/2401.04088)] | Jan 4th, 2024 | 13B | FT | 8.30 | 94.78 | 18.26 | 68.42 | 
 | **Self-Rewarding 70B** [[paper](https://arxiv.org/abs/2401.10020)] | Jan 18th, 2024 | 70B | FT | _ | _ | 20.44 | _ | 
-|-------------|-------------------|--------------|-------------|---------------|----------------|-----------------|
+|--------------------|-------------------|--------------|-------------|---------------|----------------|-----------------|
 | **GPT-3.5-turbo** | Nov 2022 | ? | ? | 7.94 | 81.71 | 14.13 | 70.21 | 
 | **GPT-4** | March 2023 | ? | ? | 8.99 | 95.28 | 23.58 | 85.36 | 
 
 
 ## Agent capabilities (Table 2)
 
-| **LLM**     | **Date released** | **LLM size** | **Training** | **ALFWorld** | **InterCode-CTF** | **WebArena** | **Code Generation** |
-|-------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|
+| **LLM**            | **Date released** | **LLM size** | **Training** | **ALFWorld** | **InterCode-CTF** | **WebArena** | **Code Generation** |
+|--------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|
 | **Lemur-chat** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | 70B | CPT + FT | 59.70 | 22.00 | 5.30 | 17.65
-|-------------|-------------------|--------------|--------------|--------------|------------|---------------|---------------------|
+|--------------------|-------------------|--------------|--------------|--------------|------------|---------------|---------------------|
 | **GPT-3.5-turbo** | Nov 2022 | ? | ? | 41.79 | 11.00 | 7.38 | 9.56 |
 | **GPT-4** | March 2023 | ? | ? | 84.33 | 37.00 | 10.59 | _ |
 
