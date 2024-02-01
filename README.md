@@ -133,7 +133,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## General capabilities (Table 1)
 
-| **LLM**                      | **Date released** | **LLM size** | **Training** | **MT-Bench** | **AlpacaEval** | **AlpacaEval-2** | **Open LLM** |
+| **LLM**                      | **Date released** | **LLM size** | **Training** | **<ins>MT-Bench</ins>** | **AlpacaEval** | **AlpacaEval-2** | **Open LLM** |
 |------------------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|
 | **WizardLM** [[paper](https://arxiv.org/abs/2304.12244)] | April 24th, 2023 | 70B | FT | 7.71 | 92.91 | 12.03 | _ | 
 | **Llama-2-chat** [[paper](https://arxiv.org/abs/2307.09288)] | July 18th, 2023 | 70B | FT | 6.86 | 92.66 | 13.87 | _ | 
