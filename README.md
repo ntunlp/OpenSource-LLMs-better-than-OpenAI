@@ -133,7 +133,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## General capabilities (Table 1)
 
-| **LLM**                      | **Date released** | **LLM size** | **Training** | **<ins>MT-Bench</ins>** | **AlpacaEval** | **AlpacaEval-2** | **Open LLM** |
+| **LLM**                      | **Date released** | **LLM size** | **Training** | **<ins>MT-Bench</ins>** | **<ins>AlpacaEval</ins>** | **<ins>AlpacaEval-2</ins>** | **<ins>Open LLM LB</ins>** |
 |------------------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|
 | **WizardLM** [[paper](https://arxiv.org/abs/2304.12244)] | April 24th, 2023 | 70B | FT | 7.71 | 92.91 | 12.03 | _ | 
 | **Llama-2-chat** [[paper](https://arxiv.org/abs/2307.09288)] | July 18th, 2023 | 70B | FT | 6.86 | 92.66 | 13.87 | _ | 
@@ -149,7 +149,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## Agent capabilities (Table 2)
 
-| **LLM**                 | **Date released** | **LLM size** | **Training** | **ALFWorld** | **InterCode-CTF** | **WebArena** | **Code Generation** |
+| **LLM**                 | **Date released** | **LLM size** | **Training** | **<ins>ALFWorld</ins>** | **<ins>InterCode-CTF</ins>** | **<ins>WebArena</ins>** | **<ins>Code Generation</ins>** |
 |-------------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|
 | **Lemur-chat** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | 70B | CPT + FT | 59.70 | 22.00 | 5.30 | 17.65
 |-------------------------|-------------------|--------------|--------------|--------------|------------|---------------|---------------------|
@@ -159,7 +159,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## Logical reasoning (Table 3)
 
-| **LLM**                 | **Date released** | **LLM size** | **Training** | **GSM8K** | **HumanEval** | 
+| **LLM**                 | **Date released** | **LLM size** | **Training** | **<ins>GSM8K</ins>** | **<ins>HumanEval</ins>** | 
 |-------------------------|-------------------|--------------|--------------|:-:|:-:|
 | **WizardCoder** [[paper](https://arxiv.org/abs/2306.08568)] | June 14th, 2023 | 15B | FT | _ | 57.3 |
 | **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | 1.3B | PT + FT | _ | 50.6 |
@@ -174,7 +174,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## Long-context modelling on ZeroSCROLLS (Table 4)
 
-| **LLM**                               | **Date released** | **LLM size** | **Training** | **GovReport** | **SummScreen** | **QMSum** | **SQuALITY** | **Qasper** | **NarrativeQA** | **QuALITY** | **MuSiQue** | **SpaceDigest** | **BookSumSort** |  
+| **LLM**                               | **Date released** | **LLM size** | **Training** | **<ins>GovReport</ins>** | **<ins>SummScreen</ins>** | **<ins>QMSum</ins>** | **<ins>SQuALITY</ins>** | **<ins>Qasper</ins>** | **<ins>NarrativeQA</ins>** | **<ins>QuALITY</ins>** | **<ins>MuSiQue</ins>** | **<ins>SpaceDigest</ins>** | **<ins>BookSumSort</ins>** |  
 |---------------------------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | **Llama-2-long-chat** [[paper](https://arxiv.org/abs/2309.16039)] | Sept 27th, 2023 | 70B | CPT + FT | 26.0 | 15.0 | 20.0 | 20.9 | 52.0 | 31.7 | 82.6 | 27.3 | 55.5 | 46.2 |
 | **Llama-2-chat-32k + retrieval** [[paper](https://arxiv.org/abs/2310.03025)] | Oct 4th, 2023 | 70B | FT | _ | _ | 18.3 | _ | 31.3 | 24.5 | 69.6 | 26.7 | _ | _ |
@@ -186,7 +186,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## Hallucination (Table 5)
 
-| **LLM**                              | **Date released** | **LLM size** | **Training** | **TruthfulQA** | **FactScore**| **HotpotQA** | **OpenBookQA** | **MedMC-QA** | **TriviaQA** |  
+| **LLM**                              | **Date released** | **LLM size** | **Training** | **<ins>TruthfulQA</ins>** | **<ins>FactScore</ins>**| **<ins>HotpotQA</ins>** | **<ins>OpenBookQA</ins>** | **<ins>MedMC-QA</ins>** | **<ins>TriviaQA</ins>** |  
 |--------------------------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|:-:|:-:|
 | text-davinci-002 + **PKG** [[paper](https://arxiv.org/abs/2305.04757)] | May 8th, 2023 | 175B | INF | _ | _ | _ | _ | 47.4 | _ |
 | GPT-3.5-turbo + **CRITIC** [[paper](https://arxiv.org/abs/2305.11738)] | May 19th, 2023 | _ | INF | _ | _ | 38.7 | _ | _ | 75.1 |
