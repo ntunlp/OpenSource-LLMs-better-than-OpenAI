@@ -166,7 +166,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 | **WizardMath** [[paper](https://arxiv.org/abs/2308.09583)] | Aug 18th, 2023 | 70B | FT | 81.6 | _ |
 | **OpenChat-3.5** [[paper](https://arxiv.org/abs/2309.11235)] | Sept 20th, 2023 | 70B | CPT + FT | 71.3 | 77.4 |
 | **Lemur-chat** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | 70B | CPT + FT | 66.3 | 61.0 |
-| **Mixtral 8x7B** [[blog](https://mistral.ai/news/mixtral-of-experts/)] | Dec 11th, 2023 | 7B (x8 MoE) | FT | 58.4 | _ |
+| **Mixtral 8x7B** [[blog](https://mistral.ai/news/mixtral-of-experts/)] | Dec 11th, 2023 | 13B | FT | 58.4 | _ |
 |-------------------------|-------------------|--------------|--------------|--------------|------------|
 | **GPT-3.5-turbo** | Nov 2022 | ? | ? | 57.1 | 48.1 | 
 | **GPT-4** | March 2023 | ? | ? | 92.0 | 67.0 | 
