@@ -134,7 +134,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 ## General capabilities (Table 1)
 
 | **LLM**                      | **Date released** | **LLM size** | **Training** | **<ins>MT-Bench</ins>** | **<ins>AlpacaEval</ins>** | **<ins>AlpacaEval-2</ins>** | **<ins>Open LLM LB</ins>** |
-|------------------------------|-------------------|--------------|--------------|-------------------------|---------------------------|-----------------------------|--------------|
+|------------------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|
 | **WizardLM** [[paper](https://arxiv.org/abs/2304.12244)] | April 24th, 2023 | 70B | FT | 7.71 | 92.91 | 12.03 | _ | 
 | **Llama-2-chat** [[paper](https://arxiv.org/abs/2307.09288)] | July 18th, 2023 | 70B | FT | 6.86 | 92.66 | 13.87 | _ | 
 | **Godzilla** [[HF card](https://huggingface.co/MayaPH/GodziLLa2-70B)] | Aug 11th, 2023 | 70B | FT | _ | _ | _ | 67.01 | 
