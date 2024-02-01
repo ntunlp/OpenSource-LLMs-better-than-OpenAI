@@ -151,24 +151,25 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 | **LLM**     | **Date released** | **LLM size** | **Training** | **ALFWorld** | **InterCode-CTF** | **WebArena** | **Code Generation** |
 |-------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|
+| **Lemur-chat** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | 70B | CPT + FT | 59.70 | 22.00 | 5.30 | 17.65
+|-------------|-------------------|--------------|--------------|--------------|------------|---------------|---------------------|
 | **GPT-3.5-turbo** | Nov 2022 | ? | ? | 41.79 | 11.00 | 7.38 | 9.56 |
 | **GPT-4** | March 2023 | ? | ? | 84.33 | 37.00 | 10.59 | _ |
-|-------------|-------------------|--------------|--------------|--------------|------------|---------------|---------------------|
-| **Lemur-chat** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | 70B | CPT + FT | 59.70 | 22.00 | 5.30 | 17.65
 
 
 ## Logical reasoning (Table 3)
 
 | **LLM**     | **Date released** | **LLM size** | **Training** | **GSM8K** | **HumanEval** | 
 |-------------|-------------------|--------------|--------------|:-:|:-:|
-| **GPT-3.5-turbo** | Nov 2022 | ? | ? | 57.1 | 48.1 | 
-| **GPT-4** | March 2023 | ? | ? | 92.0 | 67.0 | 
-|-------------|-------------------|--------------|--------------|--------------|------------|
 | **WizardCoder** [[paper](https://arxiv.org/abs/2306.08568)] | June 14th, 2023 | 15B | FT | _ | 57.3 |
 | **Phi-1** [[paper](https://arxiv.org/abs/2306.11644)] | June 20th, 2023 | 1.3B | PT + FT | _ | 50.6 |
 | **WizardMath** [[paper](https://arxiv.org/abs/2308.09583)] | Aug 18th, 2023 | 70B | FT | 81.6 | _ |
+| **OpenChat-3.5** [[paper](https://arxiv.org/abs/2309.11235)] | Sept 20th, 2023 | 70B | CPT + FT | 71.3 | 77.4 |
 | **Lemur-chat** [[paper](https://arxiv.org/abs/2310.06830)] | Oct 10th, 2023 | 70B | CPT + FT | 66.3 | 61.0 |
 | **Mixtral 8x7B** [[blog](https://mistral.ai/news/mixtral-of-experts/)] | Dec 11th, 2023 | 7B (x8 MoE) | FT | 58.4 | _ |
+|-------------|-------------------|--------------|--------------|--------------|------------|
+| **GPT-3.5-turbo** | Nov 2022 | ? | ? | 57.1 | 48.1 | 
+| **GPT-4** | March 2023 | ? | ? | 92.0 | 67.0 | 
 
 
 ## Long-context modelling on ZeroSCROLLS (Table 4)
