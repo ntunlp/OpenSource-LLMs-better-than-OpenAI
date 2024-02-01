@@ -186,8 +186,8 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## Hallucination (Table 5)
 
-| **LLM**                    | **Date released** | **LLM size** | **Training** | **TruthfulQA** | **FactScore**| **HotpotQA** | **OpenBookQA** | **MedMC-QA** | **TriviaQA** |  
-|----------------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|:-:|:-:|
+| **LLM**                              | **Date released** | **LLM size** | **Training** | **TruthfulQA** | **FactScore**| **HotpotQA** | **OpenBookQA** | **MedMC-QA** | **TriviaQA** |  
+|--------------------------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|:-:|:-:|
 | text-davinci-002 + **PKG** [[paper](https://arxiv.org/abs/2305.04757)] | May 8th, 2023 | 175B | INF | _ | _ | _ | _ | 47.4 | _ |
 | GPT-3.5-turbo + **CRITIC** [[paper](https://arxiv.org/abs/2305.11738)] | May 19th, 2023 | _ | INF | _ | _ | 38.7 | _ | _ | 75.1 |
 | text-davinci-002 + **LMvsLM** [[paper](https://arxiv.org/abs/2305.13281)] | May 22nd, 2023 | 175B | INF | _ | _ | _ | _ | _ | 83.1 |
@@ -195,7 +195,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 | **Platypus** [[paper](https://arxiv.org/abs/2308.07317)] | Aug 14th, 2023 | 70B | FT | 62.3 | _ | _ | _ | _ | _ |
 | GPT-3.5-turbo + **KSL** [[paper](https://arxiv.org/abs/2309.03118)] | Sept 6th, 2023 | _ | FT | _ | _ | _ | 81.6 | _ | _ |
 | LLama + **CoVe** [[paper](https://arxiv.org/abs/2309.11495)] | Sept 20th, 2023 | 65B | FT + INF | _ | 71.4 | _ | _ | _ | _ | 
-|----------------------------|-------------------|--------------|--------------|----------------|--------------|--------------|----------------|--------------|--------------|
+|--------------------------------------|-------------------|--------------|--------------|----------------|--------------|--------------|----------------|--------------|--------------|
 | **GPT-3.5-turbo** | Nov 2022 | ? | ? | 47.0 | 58.7 | 24.0 | 78.3 | 44.4 | 79.3 |
 
 # Citation
