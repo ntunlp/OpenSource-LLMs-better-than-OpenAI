@@ -133,8 +133,8 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## General capabilities (Table 1)
 
-| **LLM**                 | **Date released** | **LLM size** | **Training** | **MT-Bench** | **AlpacaEval** | **AlpacaEval-2** | **Open LLM** |
-|-------------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|
+| **LLM**                      | **Date released** | **LLM size** | **Training** | **MT-Bench** | **AlpacaEval** | **AlpacaEval-2** | **Open LLM** |
+|------------------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|
 | **WizardLM** [[paper](https://arxiv.org/abs/2304.12244)] | April 24th, 2023 | 70B | FT | 7.71 | 92.91 | 12.03 | _ | 
 | **Llama-2-chat** [[paper](https://arxiv.org/abs/2307.09288)] | July 18th, 2023 | 70B | FT | 6.86 | 92.66 | 13.87 | _ | 
 | **Godzilla** [[HF card](https://huggingface.co/MayaPH/GodziLLa2-70B)] | Aug 11th, 2023 | 70B | FT | _ | _ | _ | 67.01 | 
@@ -142,7 +142,7 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 | **Yi-chat** [[HF card](https://huggingface.co/01-ai/Yi-34B-Chat)] | Nov 23rd, 2023 | 34B | FT | _ | 94.08 | 29.6 | 68.68 | 
 | **Mixtral-8x7B** [[paper](https://arxiv.org/abs/2401.04088)] | Jan 4th, 2024 | 13B | FT | 8.30 | 94.78 | 18.26 | 68.42 | 
 | **Self-Rewarding 70B** [[paper](https://arxiv.org/abs/2401.10020)] | Jan 18th, 2024 | 70B | FT | _ | _ | 20.44 | _ | 
-|-------------------------|-------------------|--------------|-------------|---------------|----------------|-----------------|
+|------------------------------|-------------------|--------------|-------------|---------------|----------------|-----------------|
 | **GPT-3.5-turbo** | Nov 2022 | ? | ? | 7.94 | 81.71 | 14.13 | 70.21 | 
 | **GPT-4** | March 2023 | ? | ? | 8.99 | 95.28 | 23.58 | 85.36 | 
 
@@ -174,11 +174,11 @@ Note that a proposed LLM may fall into several of the above 4 categories.
 
 ## Long-context modelling on ZeroSCROLLS (Table 4)
 
-| **LLM**                         | **Date released** | **LLM size** | **Training** | **GovReport** | **SummScreen** | **QMSum** | **SQuALITY** | **Qasper** | **NarrativeQA** | **QuALITY** | **MuSiQue** | **SpaceDigest** | **BookSumSort** |  
-|---------------------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| **LLM**                               | **Date released** | **LLM size** | **Training** | **GovReport** | **SummScreen** | **QMSum** | **SQuALITY** | **Qasper** | **NarrativeQA** | **QuALITY** | **MuSiQue** | **SpaceDigest** | **BookSumSort** |  
+|---------------------------------------|-------------------|--------------|--------------|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | **Llama-2-long-chat** [[paper](https://arxiv.org/abs/2309.16039)] | Sept 27th, 2023 | 70B | CPT + FT | 26.0 | 15.0 | 20.0 | 20.9 | 52.0 | 31.7 | 82.6 | 27.3 | 55.5 | 46.2 |
 | **Llama-2-chat-32k + retrieval** [[paper](https://arxiv.org/abs/2310.03025)] | Oct 4th, 2023 | 70B | FT | _ | _ | 18.3 | _ | 31.3 | 24.5 | 69.6 | 26.7 | _ | _ |
-|---------------------------------|-------------------|--------------|--------------|---------------|----------------|-----------|--------------|------------|-----------------|-------------|-------------|-----------------|-------------------|
+|---------------------------------------|-------------------|--------------|--------------|---------------|----------------|-----------|--------------|------------|-----------------|-------------|-------------|-----------------|-------------------|
 | **GPT-3.5-turbo** | Nov 2022 | ? | ? | 21.3 | 16.1 | 15.6 | 20.4 | 49.3 | 25.1 | 66.6 | 27.1 | 49.1 | 49.8 | 
 | **GPT-3.5-turbo-16k** | June 2023 | ? | ? | 24.3 | 16.2 | 17.4 | 21.4 | 50.0 | 29.5 | 72.0 | 27.0 | 54.1 | 54.6 | 
 | **GPT-4** | March 2023 | ? | ? | 26.3 | 17.3 | 18.5 | 22.6 | 50.7 | 27.6 | 89.2 | 41.1 | 62.8 | 60.5 |
